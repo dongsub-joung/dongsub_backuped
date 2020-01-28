@@ -7,6 +7,129 @@ tags: vanilla JS
 
 >  다 하면 항상 github에 푸쉬하자!
 
+## Making a To Do Lisst part Three
+
+```js
+return toDo.id !== li.id;
+```
+
+> console.log (toDo.id, li.id);
+
+`toDo.id`는 숫자고 `li.id`는 string이라서 `error`{:.error}
+
+> 변환해서 array에 넣음
+
+```js
+return toDo.id !== parseInt(li.id);
+```
+
+이렇게 return해서 생긴 새로운 배열을 `toDos`에 Replace
+
+_const 변수일 경우 let으로 변환해야함_
+
+> filter와 forEach
+
+list에 있는 모든 `item`을 위한 함수를 실행시키는거야
+
+
+
+---
+
+## Image Background
+
+> 랜덤한 숫자 생성
+
+```js
+Math.random()* 정수;
+```
+
+이미지 숫자가 정수라서 소수점을 버려야함.
+
+```js
+Math.floor(Math.random()*정수);
+```
+
+> 우리가 이미지를 만들 수 있는 번호를 가졌다면 우리가 이미지를 생성하고, 이미지요소로 설정하고 이를 background로 설정할거야
+
+```js
+const image= new Image(); //image라는 object 생성
+image.scr= `이미지 경로`;
+body.appendChild(image); 
+//body 객체에 하위 원소로 image를 추가
+```
+
+`검사` > `Elements` > `body`태그 최하단에 이미지를 확인
+
+> `table listener`를 이미지화 하기 위해 `even listener`를 연결
+>
+> = 이미지 로딩이 다 된 후에 사용자에게 보여줌.
+
+```js
+function handleImgLoad(){
+    console.log("finished loading");
+}
+image.addEvenlistener("loaded",handleImgLoad);
+```
+
+_아무것도 붙이지 않았기때문에 다운로드 중이 아닐꺼야_
+
+_body.appendchild(image);_ `error`{:.error}
+
+API으로부터 나온게 아니기때문에 이것은 작동하지 않음.
+
+=이게 단지 원격이라(remote) 필요없음. API에서 일한다면 필요함.
+
+> 우린 새로운 class name을 가지고 우리가 할 수 있는 모든 것이 여기에 올거야
+
+```js
+image.classList.add("bgImage")
+```
+
+> 사진의 해상도가 너무 커서 사진의 사이즈를 조정할 필요가 있음
+
+```css
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    animation: fadeIn .5s linear;
+}
+```
+
+> 사진의 크기가 윈도우를 다 채웠지만 모든 것이 덮여버림.
+
+```
+z-index: 0;
+```
+
+> 사진의 사이즈가 안정화 되었지만 아직도 덮여있음.
+>
+> appendchild가 다른 애들 뒤에 있어서
+
+`z-index` > 1로 변경 `error`
+
+```js
+//body.appendChild(iamge);를 지우고
+body.prepend.(iamge);
+```
+
+`z-index` > -1 `해결`{:.info}
+
+_`z-index`값이 하위 원소에서 작용하지 않기 때문에 바꾼거 같다._
+
+> 이쁘게 만들자
+
+`@keyframes fadeIn`
+
+`animation`
+
+
+
+---
+
 ## [filter](https://niceman.tistory.com/77)
 
 배열 처리 정리에 사용됨.
@@ -50,8 +173,43 @@ console.log(result);
 - `thisArg` Optional
 
   `callback`을 실행할 때 `this`로 사용하는 값.
-  
-  
+
+### 노마드 해설
+
+filter는 마치 forEach에서 funtion을 실행하는 것 같이 각각의 item과 같이 실행이 될꺼임.
+
+> filter가 하는 것
+
+함수가 true를 return하는 아이템들이 있는 `array`을 하나 만드는 것.
+
+id로 된 object를 가져다가 true/falus  구분해서 true값만 리턴해서 `array` 구성
+
+```js
+function filterFn(toDo){
+	return toDo.id ===1
+}
+const cleanToDos= todos.filter(filterFn);
+```
+> 같은 의미임
+
+```js
+const cleanToDos= todos.filter(function(toDo){
+    return toDo.id !== li.id
+     //모든 toDo가 `li`의 id와 같지 않을때
+});
+```
+
+_이것은 array 안에 있는 모든 toDos를 통할거야(=검사할거야?)_
+
+_그리고 이것은 여기서 true인 것들인 toDos만  return할거야_
+
+> id가 1일 때 *true*
+
+여기서 `cleanTodos`와 `filter`가 하는 것은 `filterFn`이 체크가 된 아이템들의 array를 주는 것.
+
+
+
+
 
 ---
 
@@ -133,17 +291,21 @@ opacity: number | initial | inherit
 
 - 자바스크립트를 모르더라도 간단하게 애니메이션을 만들 수 있습니다.
 - 자바스크립트를 이용한 애니메이션은 잘 만들어졌더라도 성능이 좋지 못할때가 있습니다. CSS 애니메이션은 frame-skipping 같은 여러 기술을 이용하여 최대한 부드럽게 렌더링됩니다.
-- 브라우저는 애니메이션의 성능을 효율적으로 최적화할 수 있습니다. 예를 들어 현재 안보이는 엘리먼트에 대한 애니메이션은 업데이트 주기를 줄여 부하를 최소화할 수 있습니다.
+- 브라우저는 애니메이션의 성능을 효율적으로 최적화할 수 있습니다. 예를 들어 현재 안보이는 엘리먼트에 대한 애니메이션은 업데이트 주기를 줄여 부하를 최소화할 수 있습니다.   
 
-> #### @keyframes
+
+
+#### @keyframes
 
 `@keyframes` 를 타임라인 안의 하나의 스테이지(구간)들 이라고 생각하세요. `@keyframes` 안에서 우리는 스테이지들을 정의하고 각 구간마다 다른 스타일을 적용 시킬 수 있습니다.
 
 _=시간 상의 순서로 보았을 때 애니메이션을 추가할 수 있다는 뜻으로 이해함_
 
-다음으로 CSS 애니메이션이 작동하도록 `@keyframes` 를 선택자로 묶어주세요. 이것은 마지막에 @keyframes 선언 안의 모든 코드를 분석하고 초기의 스타일을 각 스테이지에 따라 새로운 스타일로 변경시킬 것입니다.
+다음으로 CSS 애니메이션이 작동하도록 `@keyframes` 를 선택자로 묶어주세요. 이것은 마지막에 @keyframes 선언 안의 모든 코드를 분석하고 초기의 스타일을 각 스테이지에 따라 새로운 스타일로 변경시킬 것입니다.   
 
-> #### ainmation-timing-function
+
+
+#### ainmation-timing-function
 
 애니메이션 속도 조절 
 
