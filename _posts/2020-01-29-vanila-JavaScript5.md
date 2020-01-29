@@ -123,6 +123,8 @@ if(loadedCords === null){
 
 
 
+
+
 ---
 
 ## Application Programming Interface
@@ -134,6 +136,8 @@ if(loadedCords === null){
 _API를 제공하는 이런 웹사이트를 이용하면 해당 웹사이트를 통해 데이터를 얻을 수가 있는데  우리가 가져올 것은 데이터 뿐이야._
 
 _API는 특정 웹사이트로부터 데이터를 얻거나 Machines끼리 소통하기 위해 고안된거야._
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: vanilla JavaScript (4)
-tags: Vanilla js
+tag: Vanilla js
 ---
 
 파일 한번 날라감.
