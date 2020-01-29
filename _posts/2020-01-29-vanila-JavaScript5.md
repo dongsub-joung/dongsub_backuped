@@ -1,0 +1,104 @@
+---
+title: vanilla JavaScript (5)
+tag: Vanilla js
+
+---
+
+
+
+## Getting the weather part one Geloocation
+
+location 정보를 가져오는 것
+
+1. 유저의 location 좌표 정보를 읽어서 
+2. 정보를 저장하고
+3. 저장한 값이 없다면 유저에게 요청하고 있다면 그대로
+
+> 좌표를 요정하는 함수를 만들어보자 =좌표 정보를 읽기
+
+_navigater API를 사용할거야 (window.document, 등등 중에서)_
+
+작은 팁으로 객체의 이름과 키값이 동일하다면 아래처럼 쓸 수 있음.
+
+```js
+const coordsObj={
+	latitude,	// latitude= latitude;
+	longitude	//longitude= longitude;
+};
+```
+
+> 받아온 위도와 경도를 저장하기
+
+```js
+localStorage.setItem(COORDS, JSON, stringify(coordsObj));
+```
+
+숫자가 아닌 `string`으로 저장해야함.
+
+`Application` > `Local storage` 에서 값을 확인
+
+> openWeathermap에서 API 가져오기
+
+[openWeathermap](openweathermap.org) 회원가입 후 키 값 js파일에 넣기 
+
+
+
+---
+
+## Getting the Weather part Tow API
+
+
+_우리는 API를 통해서 openWeathermap의 데이터만 가져올꺼야_
+
+_API를 공개한 사람들 있잖아? 그사람들이 이 API를 공짜로 사용하라고 제안하고 있어_
+
+_API페이지를 통해서 "여기 데이터가 있고 열려있으니 쓰고 싶은 사람 써라"라고 알려주는거지_
+
+_여기 나온 URL 예제로 Request를 보내면 데이터를 얻을 수 있어_
+
+_말 그대로 그냥 데이터야 local storage에 저장된 데이터랑 똑같아. 그리고 이러한 데이터는 string으로 저장되어있음._
+
+
+> = JavaScript Object String
+>
+> 즉, 이러한 API에서 날씨 정보를 찾아볼 수도 있고, 이렇게 object로 된 날씨 데이터를 얻을 수도 있음
+
+그리고 무엇을 호출하면 이러한 데이터를 얻을 수 잇는지도 알려줌. 우린 이 URL을 호출하면 됨.
+
+> 호출해서 위도와 경도를 넣어보자
+
+
+
+
+
+
+
+---
+
+## navigater API
+
+### geolocation
+
+### getCurrentPosition
+
+> 2개의 requirements가 필요
+
+1. 좌표를 가져오는데 성공했을때를 처리하는 함수
+2. 좌표를 가져오는데 실패했을때를 처리하는 함수
+
+
+
+---
+
+## Application Programming Interface
+
+*API*
+
+*다른 서버로부터 손쉽게 데이터를 가져올 수 있는 수단이지.*
+
+_API를 제공하는 이런 웹사이트를 이용하면 해당 웹사이트를 통해 데이터를 얻을 수가 있는데  우리가 가져올 것은 데이터 뿐이야._
+
+_API는 특정 웹사이트로부터 데이터를 얻거나 Machines끼리 소통하기 위해 고안된거야._
+
+
+
