@@ -3,7 +3,7 @@ title: VanillaJS Challenge (1)
 tag: VanillaJS Challenge
 ---
 
-
+​						
 
 ## 01-29 Quiz
 
@@ -87,5 +87,5 @@ colorArray= [`red`, `blur`, `gray`, `DarkOrange`, `Green`]를 만들어서 하�
 
 랜덤 숫자를 생성해서 배열 순서로 한다면?
 
-//현재 시각 오전 04:01분 01.30
+
 

@@ -83,7 +83,7 @@ EX) 실시간의 메일 확인 가능 왜냐하면 js가 계속 데이터를 가
 fetch(`https:// API call 주소`);
 ```
 
-> app ID에 API Key를 넣어주고 요청자의 API Key를 통해서, 얼마나 요청하는지 알 수 있음.
+> app ID에 API Key를 넣어주고 요청h자의 API Key를 통해서, 얼마나 요청하는지 알 수 있음.
 
 ```
 fetch(`https:// API call 주소&appid=${API_KEY}`);
@@ -100,11 +100,29 @@ if(loadedCords === null){
     }
 ```
 
-
-
 `network` 탭에서 확인
 
+우리가 request한 내용을 보여주고, 거기에 대한 response도 보여줌
 
++ 온도가 켈빈이나 화씨로 나오는 것 같아 미터로 변환하자(홈피에 쓰여져 있음)
+
+> For temperature in Celsius use units=metric
+
++ `then`
+
+데이터가 우리한테 넘어 왔을때 함수를 실행시킴. 
+
+=데이터가 전송되는 것을 기다린다음 실행
+
+>  why? 
+
+기다리지 않고 바로 실행해버리면 함수가 제대로 실행 안될 수도 있음.
+
++ JSON 데이터를 `response` 에서 가져올거야
+
+> why?
+
+`response`에서는 `network`정보만 보이잖아. 그게 우리에게 필요한 정보거든
 
 
 
@@ -139,5 +157,15 @@ _API는 특정 웹사이트로부터 데이터를 얻거나 Machines끼리 소�
 
 
 
+---
 
+## than
+
+
+
+
+
+---
+
+## 그 외 커스텀
 
