@@ -3,6 +3,9 @@ header:
         en      : &EN       Docs
     url: /Docs.html
 
+  - titles:
+        en      : &EN       Portfolio
+    url: https://dongsub-joung.github.io/web/result/result.html
 
   - titles:
       # @start locale config
