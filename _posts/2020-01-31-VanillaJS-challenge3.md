@@ -45,9 +45,31 @@ tag: VanillaJS Challenge
 
 + `millisecond`를 `day`, `hours`, `min`, `sec`로 변환
 
+```js
+const day=Math.floor(substraction / (1000*60*60*24)),
+ hours = Math.floor((RemainDate % (1000 * 60 * 60 * 24))/(1000*60*60)),
+ min = Math.floor((RemainDate % (1000 * 60 * 60)) / (1000*60)),
+ sec = Math.floor((RemainDate % (1000 * 60)) / 1000);
+```
+
++  남은 시간이 0보다 작다면 타이머를 해제하고 그렇지 않으면 -1초
+
+```js
+ if (RemainDate < 0) {      
+    // 시간이 종료 되었으면..
+    clearInterval(tid);   // 타이머 해제
+  }else{
+    RemainDate = RemainDate - 1000; // 남은시간 -1초
+  }
+```
+
+> [Date 메소드](http://tcpschool.com/javascript/js_standard_dateMethod)
 
 
 
+>  `const`로 선언한 변수 값은 못바꾸니까 `let`으로 바꾸자...
+>
+> 왜 시간이 안바뀌나 했다... 
 
 
 
