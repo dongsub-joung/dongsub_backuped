@@ -14,6 +14,7 @@ key: page-about
 ### JavaScript
 > 프론트 엔드 체험하기
 > 자기 소개 홈페이지를 이쁘고 동적으로 만들어보는 과정
+
 #### [Vanilla JavaScript](https://dongsub-joung.github.io/archive.html?tag=vanilla+JavaScript)
 #### [Challenge](https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge)
 
