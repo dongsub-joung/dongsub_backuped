@@ -35,7 +35,7 @@ tag: VanillaJS Challenge
 
 + 현재와  크리스마스 이브 시간 가져오기 
 
-> [getTime()]([https://webisfree.com/2017-04-07/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%82%A0%EC%A7%9C%EC%97%90%EC%84%9C-gettime()%EC%9C%BC%EB%A1%9C-%EC%96%BB%EC%96%B4%EC%98%A8-%EA%B0%92%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94](https://webisfree.com/2017-04-07/자바스크립트-날짜에서-gettime()으로-얻어온-값은-무엇인가요)
+> [getTime]([https://webisfree.com/2017-04-07/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%82%A0%EC%A7%9C%EC%97%90%EC%84%9C-gettime()%EC%9C%BC%EB%A1%9C-%EC%96%BB%EC%96%B4%EC%98%A8-%EA%B0%92%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94](https://webisfree.com/2017-04-07/자바스크립트-날짜에서-gettime()으로-얻어온-값은-무엇인가요)
 
 1970년 1월 1일 자정을 기준
 
