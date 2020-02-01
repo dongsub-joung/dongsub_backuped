@@ -73,20 +73,6 @@ const day=Math.floor(substraction / (1000*60*60*24)),
 
 
 
----
 
-## 정답 해설
-
-+ Date() object 만들어 변수에 저장
-+ `뺀 값`을 다시 Date() obj을 만듬
-
-|  `milisecond`  | `시간 단위`  |
-| :------------: | :----------: |
-| Sm= 뺀 값/1000 | Sec= Sm % 60 |
-|   Mm =Sm/60    | Min= Mm % 60 |
-|   Hm= Mm/60    |  H= Hm % 60  |
-|   Dm= Hm/24    |      ""      |
-
-+ `getTime`을 쓰지 않음.
 
 
