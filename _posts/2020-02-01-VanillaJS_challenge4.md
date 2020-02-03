@@ -24,6 +24,8 @@ tag: VanillaJS Challenge
 
 ## 알고리즘
 
+### 사전 구상
+
 1. `document.body` 변수화
 
 2. `innerHTML`로 박스 생성 (여러 선택자를 선택하는 박스가 있던걸로 기억)
@@ -38,26 +40,82 @@ tag: VanillaJS Challenge
 
 
 
+### 확정
+
+1. html `select-option`로 폼(=셀렉트 박스) 만들기
+
+2. 셀렉트 박스의 값을 가져오기 ( Value / Text ) 
+
+3. Key 값과 가져온 ( Value / Text )을 `localstorage`에 저장 =`setItem`
+
+4. 만약`localstorage`에 저장된 Key값이 없다면 3)을 실행하고
+
+   저장된 Key값이 있다면 저장된 값을 불러옴.
+
+5. 
+
+
+
 ---
 
 ## 실행
 
-html의 `select-option`은 자동으로 값을 반환하지 않았음. 
-
->  [셀렉트 박스의 옵션 값과 텍스트 값 가져오기](https://frhyme.github.io/web/html_select_javascript/)
+>  [셀렉트 박스의 옵션 값과 텍스트 값 가져오기](https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript)
 
 ```js
-<script>
-        var alert_select_value = function (select_obj){
-            // 우선 selectbox에서 선택된 index를 찾고 
-            var selected_index = select_obj.selectedIndex;
-            // 선택된 index의 value를 찾고 
-            var selected_value = select_obj.options[selected_index].value;
-            // 원하는 동작을 수행한다. 여기서는 그냥 alert해주는 식으로만 처리함. 
-            alert(selected_value);
-        };
-    </script>
+//If you have a select element that looks like this:
+<select id="ddlViewBy">
+  <option value="1">test1</option>
+  <option value="2" selected="selected">test2</option>
+  <option value="3">test3</option>
+</select>
+
+//Running this code:
+var e = document.getElementById("ddlViewBy");
+var strUser = e.options[e.selectedIndex].value;
+
+//Would make strUser be 2. If what you actually want is test2, then do this:
+var e = document.getElementById("ddlViewBy");
+var strUser = e.options[e.selectedIndex].text;
+//Which would make strUser be test2
 ```
+
+
+
+---
+
+## 정답해설
+
+```js
+function loadCountries() {
+  const selected = localStorage.getItem("country");
+  if (selected) {
+    const option = document.querySelector(`option[value="${selected}"]`);
+    option.selected = true;
+  }
+}
+```
+
+`country`라는 key값을 불러와서 변수에 저장
+
+만약 변수가 존재한다면 html전체에서 `option`에 관련된 원소 항목을 가져옴
+
+_관련된 원소 항목: 선택된 value_
+
+그리고 그 값은 `true`
+
+```js
+function handleChange() {
+  const selected = select.value;
+  localStorage.setItem("country", selected);
+}
+```
+
+> select.addEventListener("change", handleChange);
+
+`change`로 기존 value말고 새로운 value를 변수로 설정
+
+`localStorage`에 새로운 value `selected`를 적용
 
 
 
