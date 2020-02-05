@@ -144,7 +144,50 @@ someOtherNode.textContent = string;
 >
 > `Differences from innerHTML`
 
+   
 
+### [input type range 슬라이더 value 값 실시간표시, oninput](https://doolyit.tistory.com/52)
+
+```js
+//1차 도전
+//range 값조정
+let rangeScroll= document.getElementById("rangeScroll");
+let selectedNum= document.querySelector(".selectedNum");
+document.getElementById("rangeScroll").setAttribute("max", 100);
+let max = document.getElementById("rangeScroll").getAttribute("max");
+
+// 범위 max를 연동해야 함 =max값을 변동시켜야함.
+function changeRange(max){
+    selectedNum =`Generate a number beween 0 and ${max}`;
+    return selectedNum.textContent;
+}
+
+//2차 도전
+let rangeScroll= document.getElementById("rangeScroll");
+let oniputVal= rangeScroll.innerHTML;
+function change(){
+    rangeScroll.setAttribute("oninput", `${oniputVal}=this.value`);
+}
+function showSliderValue(val){
+    const valueView= document.getElementById("sliderValueView");
+    valueView.innerHTML= `${val}`;
+}
+```
+
+   
+
+[html에서 range를 이용해서 input을 받고 input 변화값 보여주기.](https://frhyme.github.io/html/html_range_oninput/)
+
+```html
+<input type="range" name="points" min="0" max="1.0" step="0.05" value="0" oninput="document.getElementById('value1').innerHTML=this.value;">
+```
+
+```js
+//html말고 js로 정리해서 입력
+const sliderValueView= document.getElementById('sliderValueView');
+const rangeScroll= document.getElementById(`rangeScroll`);
+rangeScroll.setAttribute("oninput", "sliderValueView.innerHTML=rangeScroll.value");
+```
 
 
 
