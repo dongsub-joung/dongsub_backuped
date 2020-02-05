@@ -87,9 +87,9 @@ numberObject.value
 numberObject.value = number
 ```
 
-   
+​    
 
-## [input type="number"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
+### [input type="number"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
 
 `<input>`elements of type **`number`** are used to let the user enter a number. They include built-in validation to reject non-numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by simply tapping with a fingertip.
 
