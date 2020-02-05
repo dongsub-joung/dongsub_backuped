@@ -7,7 +7,7 @@ tag: VanillaJS Challenge
 
 ## 조건
 
-Make a number guessing game using Javascript!
+_Make a number guessing game using Javascript!_
 
 1. Find a random number on a range between 0 and a number defined **by the user**.
 2. Use **range** input.
@@ -15,6 +15,14 @@ Make a number guessing game using Javascript!
 4. **Only** play after the user chooses a number.
 5. Notify the user if the game is lost or won.
 6. Don't give up.
+
+   
+
+> 조건되는 것들
+
++ 사용자가 숫자를 입력해서 컴퓨터가 그것을 맞추면 이기고, 못맞추면 지는 게임.
++ 숫자의 범위는 `바`로 이동(=변화)시킬 수 있음
++ 몇번이고 재도전 가능
 
 
 
@@ -62,7 +70,9 @@ A range can be created by using the [`Document.createRange()`](https://developer
 >
 > `retrieve`: _selection.getRangeAt()  OR  document.caretRangeFromPoint()_
 
-​    
+_`HTML` input type="range" 존재함. 내가 찾던건 이거였음_
+
+   
 
 [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
@@ -93,17 +103,48 @@ numberObject.value = number
 
 `<input>`elements of type **`number`** are used to let the user enter a number. They include built-in validation to reject non-numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by simply tapping with a fingertip.
 
-> `input element`: type number
-
-
-
-
-
-
-
-
+> `input element`
 
 ### [input type="button"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
+
+```js
+//A simple button
+const button = document.querySelector('input');
+const paragraph = document.querySelector('p');
+
+button.addEventListener('click', updateButton);
+
+function updateButton() {
+  if (button.value === 'Start machine') {
+    button.value = 'Stop machine';
+    paragraph.textContent = 'The machine has started!';
+  } else {
+    button.value = 'Start machine';
+    paragraph.textContent = 'The machine is stopped.';
+  }
+}
+```
+
+
+
+### [Node.textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+
+The `textContent` property of the [`Node`](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface represents the text content of the node and its descendants.
+
+> `property` :   _represents the text_
+
+```js
+let text = someNode.textContent;
+someOtherNode.textContent = string;
+```
+
+> `Return value` : A string or null
+>
+> `Differences From innerText`
+>
+> `Differences from innerHTML`
+
+
 
 
 
