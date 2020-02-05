@@ -95,7 +95,7 @@ li에 `id`를 할당해야 어떤 버튼이 눌렸는지 안다. class로는 모
 
 *JS*
 
-+ `getElementById`로 pending, finished, form 선언 
++ + `getElementById`로 pending, finished, form 선언 
 
   `querySelector`로 input 선언
 
