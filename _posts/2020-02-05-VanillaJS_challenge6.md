@@ -191,3 +191,51 @@ rangeScroll.setAttribute("oninput", "sliderValueView.innerHTML=rangeScroll.value
 
 
 
+---
+
+## 정답 해설
+
+### html
+
+_value값 변경_
+
+> 나:	 `setattribute-oninput`
+>
+>  `datalist-option`  
+
+_input type="range"_
+
+> 나:	`id` `min` `max` `value` `step`
+>
+> 추가적으로 `list="number"`
+
+_input type="number"_
+
+```html
+//나
+<form>
+  Guess the number 
+  <input type="number" id="numberId" />
+  <input type="button" value="play!" id="playId" />
+</form>
+```
+
+```html
+//답안
+<form id="js-guess">
+      <label>Guess the number:</label>
+      <input type="number" max="200" min="5" />
+      <button>Play!</button>
+    </form>
+```
+
+
+
+### js
+
+> parseInt `f`
+
+
+
+
+
