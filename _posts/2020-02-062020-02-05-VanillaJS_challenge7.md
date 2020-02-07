@@ -152,3 +152,129 @@ _다만 그 값이 ""이기 때문에 multi의 리턴값을 변환할 필요가 
 ## 실행 3
 
 `실행 2`1는 add함수에 문자열까지 다 표기가 되었고 `eval`이라는 내장 함수도 사용했다. 
+
+문제는 
+
+1. _viewer에 string이 보여진다는 것_
+2. _`eval`의 오류_
+
+`eval`의 오류는 연속된 string이 있다면 연산오류가 나버리는 것.
+
+이것을 해결하기 위해서는 string의 입력이 2번 초과일 경우 그 연산자에 대해서는 `calculator.value`에 추가하지 않아야한다.
+
+```js
+// 중간과정
+// 구현해야할 것: 함수에 들어오는 변수가 숫자인지 연산자인지 구별해야함.
+let tOf= false; // 2번 연속 연산자면 1, 아니면 0
+function add(num){
+    if(tOf === false){
+        if( overlap(num) === true){
+
+        } else {
+            calculator.value += num;
+            calculator.value= eval(calculator.value);
+        }
+    }else{
+        calculator.value += num;
+        calculator.value= eval(calculator.value);
+    }
+}
+const multi= document.querySelector(".multi");
+console.log(multi);
+
+function overlap(num){
+    if(num == String){
+        tOf= true;
+    } else{ 
+        tOf= false;
+    }
+} 
+```
+
+
+
+### `eval`의 오류: 연속된 string이 있다면 연산오류가 나버리는 것의 해결
+
+> [HTML + javascript 계산기 만들기 프로젝트!](https://blog.cordelia273.space/32)
+
+```js
+var numberClicked = false; // 전역 변수로 numberClicked를 설정
+    function add (char) {
+        if(numberClicked == false) { // 만약 이전에 연산자를 입력 했는데,
+            if(isNaN(char) == true) { // 입력 받은 값이 또 다시 연산자면,
+                // 아무것도 하지 않는다.
+            } else { // 연산자가 아니라면!
+                document.getElementById('display').value += char; // 식 뒤에 값을 추가한다.
+            }
+        } else { // 만약에 이전에 숫자를 입력 했으면,
+            document.getElementById('display').value += char; // 식 뒤에 값을 추가한다.
+        }
+ 
+ 
+        // 다음 입력을 위해 이번 입력에 숫자가 눌렸는지 연산자가 눌렸는지 설정한다.
+        if(isNaN(char) == true) { // "만약 숫자가 아닌게 참이라면" = "연산자를 눌렀다면"
+            numberClicked = false; // numberClicked를 false로 설정한다.
+        } else {
+            numberClicked = true; // numberClicked를 true로 설정한다.
+        }
+    }
+```
+
+> [javascript 계산기 / 자바스크립트 계산기 만들기](https://cofs.tistory.com/209)
+
+```js
+   if (isNaN(su))  
+    {
+        flag2++;
+    }else{
+        flag2 = 0;
+        }
+        
+    if (flag2 >1)  
+    {
+        return; //43# : 문자 입력이 2번 이상이면 리턴
+    }
+    f.disp.value += su;   
+}
+```
+
+_inNaN function으로 숫자인지 문자열인지 판단_
+
+_count 변수를 만들어서 연산자가 입력된 수를 제어_
+
+> 완성
+
+```js
+function add(num){
+//input이 숫자인지 문자인지 판별
+    if(isNaN(num) == true){
+        tofCount++;     //2연속 연산자면 0으로
+    } else{ 
+        tofCount=0;
+    }
+
+    if(tofCount > 1){
+        return tof=true;
+    } 
+
+    if(tOf == false){
+        claculation(num);
+        calculator.value= eval(calculator.value);
+    } else {    //2연속 연산자면
+        return;
+    }
+}
+```
+
+
+
+---
+
+### viewer에 string이 보여진다는 것의 해결
+
+
+
+
+
+
+
