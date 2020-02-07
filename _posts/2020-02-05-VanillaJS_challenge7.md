@@ -272,9 +272,15 @@ function add(num){
 
 ### viewer에 string이 보여진다는 것의 해결
 
+예시에서 곱셈일 경우 
+
+2(2) , *(2) ,2(4), *(4), 2(8) 이런식으로 작동함
 
 
 
+> [HTMLJavaScript-계산기-만들기](https://olsh1108o.tistory.com/entry/HTMLJavaScript-계산기-만들기)
 
+내가 만든 계산기로는 이러한 것이 불가능함을 이것을 보고 깨달음. 코드를 갈아야함
 
+어칼까 일단 내고 다시 만들자
 
