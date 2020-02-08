@@ -391,7 +391,7 @@ switch (currentOperation) {
 
    
 
-> 실행문
+> 외부 실행문
 
 ```js
 numbers.forEach(function(number) {
@@ -424,7 +424,7 @@ function handleNumberClick(e) {
 
 ​    
 
-오퍼레이션 클랙스의 원소들에 대해서 각각 실행
+오퍼레이션 클래스의 원소들에 대해서 각각 실행
 
 ```js
 function handleOperationClick(e) {
@@ -438,4 +438,29 @@ function handleOperationClick(e) {
   currentOperation = clickedOperation;
 }
 ```
+
+첫번째 값의 매개변수
+
+첫번째 값 && 두번째 값을 입력 받았다면 계산
+
+   
+
+```js
+function handleReset() {
+    ...
+  result.innerHTML = "0";	//나와 다르게 출력값을 다르게 설정함
+}
+```
+
+   
+
+```js
+function handleEqualsClick() {
+  if (firstDone && secondDone) {
+    calculate();	// `=` click
+  }
+}
+```
+
+
 
