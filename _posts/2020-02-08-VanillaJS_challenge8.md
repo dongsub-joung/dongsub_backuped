@@ -61,9 +61,13 @@ tag: VanillaJS Challenge
 
 사진 번호를 할당해서 보여주는 것
 
+5. Weather with Geolocation.
 
+날씨 API받아오기
 
+필요한 데이터를 뽑아서 적용시키기
 
+날씨 데이터 출력
 
 
 
@@ -274,6 +278,40 @@ init();
 ```
 
 
+
+---
+
+## 4. Random Background Image
+
+```js
+const body= document.querySelector("body");
+
+function inputBg(num){
+    const image= new Image();
+    image.src= `image/${num+1}.jpg`;
+    image.classList.add(`bgImage`);
+    body.prepend(image);
+}
+
+const ImgNum=7;
+function generageNum(){
+    const ran= Math.floor(Math.random()*ImgNum);
+    return ran;
+}
+
+function init(){
+    const num= generageNum();
+    inputBg(num);
+}
+
+init();
+```
+
+
+
+---
+
+## 5. Weather with Geolocation.
 
 
 
