@@ -228,11 +228,10 @@ const list_VAL="List";
 
 function loadPreVal(){  //입력되면, 입력값을 저장하고, 출력 그리고 그전에 저장값을 받아와서 /출력
     const getObj= localStorage.getItem(list_VAL);
-    
     if(getObj !== null){
         const getString= JSON.parse(getObj);
         getString.forEach(function(toDo){
-            paintList(getString.text);
+        paintList(toDo.text);
         });
     }
 }
