@@ -25,55 +25,15 @@ tag: VanillaJS Challenge
 
 ---
 
-## 알고리즘
+## 1. Clock
 
-1. clock
++ 현재 시간을 가져오기
 
-현재 시간을 가져오기
++ 시간을 갱신 1000ms
 
-시간을 갱신 1000ms
-
-시간 출력
-
-2. Username Persistance
-
-유저 이름을 입력 받음
-
-유저이름을 저장	/	 불러옴
-
-유저이름 입력창을 숨기고 거기에 text출력
-
-3. To Do List
-
-할일은 배열. 배열 선언
-
-배열 입력 받기
-
-> 2와 동일
-
-배열 출력하기
-
-> JSON을 이용
-
-4. Random Background Image.
-
-사진 갯수만큼 랜덤 정수 생성 
-
-사진 번호를 할당해서 보여주는 것
-
-5. Weather with Geolocation.
-
-날씨 API받아오기
-
-필요한 데이터를 뽑아서 적용시키기
-
-날씨 데이터 출력
-
-
++ 시간 출력
 
 ---
-
-## 1. Clock
 
 ```js
 let clock= document.querySelector(".clock");
@@ -101,6 +61,12 @@ _시계를 한 클래스로 묶고 innerHTML하니까 sec에 해당하는 부분
 ---
 
 ## 2. Username Persistance
+
++ 유저 이름을 입력 받음
++ 유저이름을 저장	/	 불러옴
++ 유저이름 입력창을 숨기고 거기에 text출력
+
+----
 
 > 입력받은 값을 텍스트로 출력
 
@@ -200,7 +166,13 @@ init();
 
 ## 3. To Do List.
 
++ 할일은 배열. 배열 선언
 
++ 배열 입력 받기
+
+  > 2와 동일
+
+---
 
 ```js
 const toDoForm= document.querySelector(".toDoForm");
@@ -283,6 +255,14 @@ init();
 
 ## 4. Random Background Image
 
+
+
+사진 갯수만큼 랜덤 정수 생성 
+
+사진 번호를 할당해서 보여주는 것
+
+---
+
 ```js
 const body= document.querySelector("body");
 
@@ -312,6 +292,78 @@ init();
 ---
 
 ## 5. Weather with Geolocation.
+
++ [API KEY 얻기 (지리 정보로 날씨 정보를 얻는)](https://openweathermap.org/current)
++ API 연결
++ [지리 정보를 요청하는 기능](https://developer.mozilla.org/ko/docs/WebAPI/Using_geolocation)
++ 정보를 얻는데 실패했을 때의 기능
++ [지리 정보를 저장하는 기능](https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
++ localstorage는 배열을 저장할 때 오브젝트로 처리. 저장도 그렇게 함.
++ JSON으로 데이터 처리
++ 저장한 값을 불러와 api에 다시 줌
+
+>  날씨 api에 필요한 위도와 경도 데이터를 저장, 그리고 그 값으로 날씨를 불러옴
+
+```js
+const weather= document.querySelector(".weather");
+
+const API_KEY= "";
+const Weather_Val="Weather";
+
+function handleGeo(position){   
+    const latitude= position.coords.latitude;
+    const longitude= position.coords.longitude;
+    const crdObj={
+        latitude,
+        longitude
+    };
+    save(crdObj);
+    getWeather(latitude, longitude);
+}
+
+function getWeather(latitude, longitude){
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`)
+    .then(response=> {
+        return response.json();
+    }).then(json => {
+        const temperatuer= json.main.temp;
+        const place= json.name;
+        weather.innerText=`${temperatuer} in ${place}`;
+    });
+}
+
+function save(crdObj){
+    localStorage.setItem(Weather_Val, JSON.stringify(crdObj));
+}
+
+function load(url){
+    const key= localStorage.getItem(Weather_Val);
+    if(key !== null){
+        const loadWeather= JSON.parse(key);
+        getWeather(loadWeather.latitude, loadWeather.longitude);
+    } else{
+        askGeo();
+    }
+}
+
+function askGeo(){
+    navigator.geolocation.getCurrentPosition(handleGeo, handleError);
+}
+
+function handleError(){
+    console.log(`cant access geo location`);
+}
+
+function init(){
+    load();
+}
+
+init();
+```
+
+
+
+
 
 
 
