@@ -68,7 +68,7 @@ fetch(`http://quotes.rest/qod.js?category=inspire`)
 
    
 
-+ [Help](https://stackoverflow.com/questions/60176478/syntaxerror-unexpected-token-p-in-json-at-position-0-in-fetch?noredirect=1#comment106436190_60176478) 질문
++ Help 질문
 
 1. 
 
@@ -187,7 +187,8 @@ const quotes={
 };
 
 const qut= document.querySelector(".quote");
-const num= Math.floor(Math.random()*30);
+const val= Math.random()*30; 
+const num= Math.floor(val)+1;
 qut.innerHTML= quotes[num];
 ```
 
