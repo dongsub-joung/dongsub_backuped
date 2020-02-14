@@ -21,6 +21,8 @@ tag: VanillaJS Challenge
 
 불필요한 코드 제거 및 정렬
 
+### JS
+
 ```js
 
 const machineInput= document.getElementById("machineInput"),
@@ -70,11 +72,5 @@ function init(){
 init();
 ```
 
-
-
----
-
-## CSS
-
-BGM추가
+   
 

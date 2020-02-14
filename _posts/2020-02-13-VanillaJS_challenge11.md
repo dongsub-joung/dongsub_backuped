@@ -54,6 +54,8 @@ boder 1px
 
 ### HTML
 
+> button 사용
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -141,5 +143,65 @@ function reset(){
 }
 ```
 
+   
 
+### CSS
+
+```css
+body{
+    background-color: black;
+    background-image: url(src/1.jpg);
+}
+
+button{
+    text-align: center;
+    font-size: 55px;
+    width: 15%;
+    position: relative;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-color: gray;
+    border-radius: 5px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#calculator{
+    width: 45%;
+    text-align: right;
+    padding-right: 15px;
+    margin-bottom: 2px;
+    background-color: gray;
+    border: none;
+    line-height: 200%;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.zero{
+    width: 31%;
+}
+
+div{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.reset{
+    background-color: transparent;
+    color: rgb(255, 145, 0);
+    font-size: 30px;
+    border: none;
+}
+
+.multi{
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
+```
 
