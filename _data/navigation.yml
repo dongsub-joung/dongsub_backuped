@@ -5,7 +5,7 @@ header:
 
   - titles:
         en      : &EN       Portfolio
-    url: https://dongsub-joung.github.io/web/result/result.html
+    url: https://dongsub-joung.github.io/web/result/intro.html
 
   - titles:
       # @start locale config
