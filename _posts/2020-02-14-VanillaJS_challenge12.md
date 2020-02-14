@@ -42,7 +42,8 @@ ver0.2는 결과창에 연산자가 출력되지 않음.
         <table style="padding: 3%; padding-top: 4%;">
             <tr>
                 <td colspan="4">
-                    <input type="text" style="width: 96%; height: 80px; font-size: 30px; text-align: right; padding-right: 10px;">
+                    <form class="result" inputmode="text">
+                    0 </form>
                 </td>
             </tr>
 
@@ -57,7 +58,7 @@ ver0.2는 결과창에 연산자가 출력되지 않음.
                     <input class="btn multi" type="button" value="^">
                 </td>
                 <td>
-                    <input class="btn multi" type="button" value="Ⅽ" >
+                    <input class="btn reset" type="button" value="Ⅽ" >
                 </td>
             </tr>
 
@@ -112,7 +113,7 @@ ver0.2는 결과창에 연산자가 출력되지 않음.
                 </td>
                 
                 <td>
-                    <input class="btn" type="button" value="=" style="background-color: antiquewhite; border-width: 8px; border-bottom-color: white;">
+                    <input class="btn equals" type="button" value="=" style="background-color: antiquewhite; border-width: 8px; border-bottom-color: white;">
                 </td>
                 <td>
                     <input class="btn multi" type="button" value="/ ">
@@ -121,7 +122,6 @@ ver0.2는 결과창에 연산자가 출력되지 않음.
     
         </table>
 
-        <input class="memo" type="text">
         
 
     <script src="index.js"></script> 
@@ -130,11 +130,69 @@ ver0.2는 결과창에 연산자가 출력되지 않음.
 
 ```
 
+   
+
+## CSS
+
+```css
+html{
+    background-color: white;
+    color: white;
+    background: url(src/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn{
+    width: 80pt;
+    height: 60pt;
+    border-radius: 15%;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.multi{
+    background-color: rgb(253, 92, 17);
+    border-width: 8px;
+    border-bottom-color: white;
+}
+
+.num{
+    background-color: rgb(48, 46, 45);
+    border-width: 8px;
+    border-bottom-color: white;
+    color: white;
+}
+
+table{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.result{
+    background-color: white;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500px;
+    width: 96%; 
+    height: 80px; 
+    font-size: 40px; 
+    text-align: right; 
+    padding-right: 10px;
+}
+```
+
+
+
 
 
 ---
 
 ## 기능
+
+### 참고 모델
 
 > 버튼을 통제하는 방식
 
@@ -161,7 +219,141 @@ let firstValue = "",
 
 변수를 나누어 받음.
 
+> 연산자 구별
+
+switch / Case 사용
+
 _결과적으로 출력에 연산자가 포함되지 않음_
 
+_참고 모델은 CSS grid를 이용해서 디자인_ 
+
+   
+
+---
+
+## 실행
+
+> array.form
+
+배열 저장에 이용
+
+> parseInt()
+
+string을 10진수의 숫자로 반환
+
+> log,  루트
+
+```js
+  switch{
+      case "log":
+         if(!valOne == null)return Math.log(valOne);
+         else return Math.log(valTwo);
+      case "√":
+         if(!valOne==null) return Math.sqrt(valOne);
+         else return Math.sqrt(valTwo);
+}  
+```
 
 
+
+## 완성
+
+```js
+const num= document.querySelectorAll(".num"), //숫자
+ multi= document.querySelectorAll(".multi"); //사칙연산,log,루트
+const nums= Array.from(num),    //집합으로 간섭 가능?
+ multis= Array.from(multi);
+
+let firstValue = "", //string 첫 숫자 값
+  firstDone,         //0 or 1 첫 숫자와 연산자 사이 카운트
+  secondValue = "",  // 두번째 숫자 값
+  secondDone,        // 연산자와 두번째 숫자값 사이 카운트
+  currentOperationVal;  //현재 입력 값
+
+const result= document.querySelector(".result");
+const reset= document.querySelector(".reset");
+ equals= document.querySelector(".equals");
+
+function handleNumberClick(e){
+   let clickNumber= e.target.value;
+   if(!firstDone){   //첫번째 연산자 입력전이라면
+      firstValue += clickNumber; //숫자를 저장
+      result.innerHTML= firstValue; //출력
+   } else { //연산자 입력 이후 라면
+      secondValue += clickNumber;   //두번째 값에 추가
+      result.innerHTML= secondValue;   //출력
+      secondDone= true; //그리고 조건 카운트 
+   }
+}
+
+function handleMultiClick(e){
+   const operationVal= e.target.value;
+   if(!firstDone) {  //첫번째 연산자 입력이면
+      firstDone= true;  // ++
+   } 
+   if(firstDone && secondDone){  //두번째 연산자 입력이면
+      calculation(); 
+   }
+
+   currentOperationVal= operationVal;  //입력된 값을 전역변수에 저장
+}
+
+function calculation(){
+   const operation= doOperation();
+   result.innerHTML= operation;  //계산 값을 출력하고
+   firstValue= operation;  //계산값을 다시 첫번 째 값으로
+   secondDone= false;   //두번째 공정 초기화
+   secondValue="";   // null
+}
+
+function doOperation(){
+   const valOne= parseInt(firstValue, 10);   //string > 10진수 number
+   const valTwo= parseInt(secondValue, 10);
+
+   switch(currentOperationVal){
+      case "+": 
+         return valOne+valTwo;
+      case "-":
+         return valOne-valTwo;
+      case "*":
+         return valOne*valTwo;
+      case "/":
+         return valOne/valTwo;
+      case "log":
+         if(!valOne == null)return Math.log(valOne);
+         else return Math.log(valTwo);
+      case "√":
+         if(!valOne==null) return Math.sqrt(valOne);
+         else return Math.sqrt(valTwo);
+      case "^":
+         return Math.pow(valOne,valTwo);
+      default:
+         return;
+   }
+}
+
+
+function handleReset(){
+   firstValue="";
+   secondvalue="";
+   currentOperationVal=null;
+   result.innerHTML="0";
+   firstDone= false;
+   secondDone= false;
+}
+
+function handleEquals(){
+   if( firstDone && secondDone ){
+      calculation();
+   }
+}
+
+nums.forEach(function(numval){
+   numval.addEventListener("click", handleNumberClick);
+});
+multis.forEach(function(multiVal){
+   multiVal.addEventListener("click", handleMultiClick);
+});
+reset.addEventListener("click", handleReset);
+equals.addEventListener("click", handleEquals);
+```
