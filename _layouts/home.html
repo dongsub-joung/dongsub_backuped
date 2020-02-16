@@ -32,6 +32,14 @@ articles:
   show_readmore: true
   show_info: true
 ---
+
+<div class="hero hero--dark" style='height: 500px; background-image: url("bg.jpg");'>
+  <div class="hero__content">
+    <h3> focus and Go straight </h3>
+  </div>
+</div>
+
+
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>
@@ -39,12 +47,7 @@ articles:
   {%- include scripts/home.js -%}
 </script>
 
-<div class="hero hero--center hero--dark" style='background-image: url("bg.jpg");'>
-  <div class="hero__content">
-    <h3>Hero</h3>
-    <p> 멍멍 </p>
-  </div>
-</div>
+
 
 
 {{ content }}
