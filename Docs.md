@@ -6,17 +6,24 @@ key: page-about
 
 #### Category
 
-## IT
+## 블로그
 ### [Jekyll](https://dongsub-joung.github.io/archive.html?tag=Jekyll)
 > 내가 이 블로그를 만든 과정   
+### [Portfolio](https://dongsub-joung.github.io/archive.html?tag=portfolio)
+> 포트폴리오 사이트 디자인
 
-### [Docker]()
 
+## Font-End
 ### JavaScript
 > 프론트 엔드 체험하기   
 
-  + [Vanilla JavaScript](https://dongsub-joung.github.io/archive.html?tag=vanilla+JavaScript)
+  + [Vanilla JavaScript](https://dongsub-joung.github.ioarchive.html?tag=vanilla+JavaScript)
   + [Challenge](https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge)
+
+
+## Back-End
+### [Docker]()
+### [curl]()
 
 
 ## [Sociology](https://dongsub-joung.github.io/archive.html?tag=Sociology)
