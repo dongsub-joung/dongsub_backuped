@@ -15,7 +15,6 @@ key: page-about
 
 
 ### Font-End
-
 #### JavaScript
   + [Vanilla JavaScript](https://dongsub-joung.github.io/archive.html?tag=vanilla+JavaScript)
   + [Challenge](https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge)
@@ -36,7 +35,10 @@ key: page-about
 ####[경험과 상호작용](https://dongsub-joung.github.io/archive.html?tag=%EC%9E%A1%EB%8B%B4)
 > 그때 그때의 경험에서 오는 나의 생각을 업로드할 예정   
 
-####[이상]()
+####[독서]()
+> 나와 책 사이에 일방통행과 물음
+
+####[이상](https://dongsub-joung.github.io/archive.html?tag=%EC%9D%B4%EC%83%81)
 > 나의 삶의 방향
 
 ### e.t.c
