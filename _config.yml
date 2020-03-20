@@ -20,7 +20,7 @@ text_skin: dark # "dark" (default), "dark", "forest", "ocean", "chocolate", "ora
 highlight_theme: tomorrow-night # "tomorrow-night" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 사회학 전공자의 개발 블로그
+title   : DongSeob-joung's Developer Life
 description: # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -38,7 +38,7 @@ author:
   name      : DongSeob-joung
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : Developer==I && HUMAN!=me
+  bio       : 개발 블로그
   email     : kirino1103@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
