@@ -44,9 +44,6 @@ tag: VanillaJS Challenge
 
 +  `move`버튼의 이벤트를 만듬
 
-+ `temp`값을 이용해서 교환?
-
-
 
 ---
 
@@ -58,10 +55,10 @@ tag: VanillaJS Challenge
 
 ```js
  function listSave(text){
-    const li= document.createElement("li"); //태그를 만들고
+    const li= document.createElement("li"); 
     const delBtn= document.createElement("button");
     const moBtn= document.createElement("button");
-    delBtn.innerText= "❌"; //value값을 넣음
+    delBtn.innerText= "❌"; 
     moBtn.innerText="🚩";
     const span= document.createElement("span");
     span.innerText= text;
@@ -103,7 +100,7 @@ li에 `id`를 할당해야 어떤 버튼이 눌렸는지 안다. class로는 모
 
 + `pendingTasks`, `FinishedTasks` 배열 선언
 
-+ 배열의 `Id`선언 : `Date.now`로 변칙적인 id생성하고 `String`으로 리턴  >>와 생각 못했다 이거
++ 배열의 `Id`선언 : `Date.now`로 변칙적인 id생성하고 `String`으로 리턴 
 
   ```js
   function getTaskObject(text) {
@@ -217,7 +214,7 @@ console.log(parent.childNodes) // NodeList [ #text "Some text", <p> ]
 
 + `painFinishedTask(Task)` 
 
-  이 버튼이 다시 눌리면 pending으로 넘어가기 때문에 다시 만들어야 할 필요성이 있음
+  
 
 + `load`
 

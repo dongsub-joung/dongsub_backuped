@@ -28,17 +28,11 @@ if(변수 >= 크기 1) {
 
 > 실행 조건
 
-+ 크기 1,2,3에 대한 정보를 얻어야한다.
-
-  = 이것을 지정해줄 것이 필요하다. 해상도?
-
 - [현재 창의 사이즈 얻기](https://m.blog.naver.com/PostView.nhn?blogId=zike8&logNo=120123612467&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
 
 
----
-
-## 정리
+## 
 
 
 

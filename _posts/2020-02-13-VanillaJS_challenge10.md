@@ -13,13 +13,13 @@ tag: VanillaJS Challenge
 - [x] 결과 출력
 - [x] BGM
 
-유저가 입력한 숫자를 컴퓨터가 맞추면 너의 패배 못맞추면 승리
+
 
 ---
 
 ## 개선
 
-불필요한 코드 제거 및 정렬
+
 
 ### JS
 
@@ -43,13 +43,13 @@ function handleSubmit(e){
     show.classList.add("on");
 }
 
-function inputUser(){   //입력받은 값 출력
+function inputUser(){   
     userInput.innerHTML= numberId.value;
 }
 
 function createNumber(){
-    let choseM= Math.floor(Math.random()*rangeScroll.value+1);  //숫자 생성
-    machineInput.innerHTML= choseM;    //출력
+    let choseM= Math.floor(Math.random()*rangeScroll.value+1);  
+    machineInput.innerHTML= choseM;    
     showTwo.classList.add("on");
 
     if( numberId.value == choseM){

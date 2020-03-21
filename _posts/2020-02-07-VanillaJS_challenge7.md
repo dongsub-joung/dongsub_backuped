@@ -65,8 +65,6 @@ tag: VanillaJS Challenge
 
 1. 버튼 만들고 지정하기.
 
-`button-value`로 버튼의 종류를 묶을려고 했는데 불가능. 
-
 + `class` 선언
 
   숫자는 `num`
@@ -89,10 +87,6 @@ tag: VanillaJS Challenge
 
 > why?
 
-_나는 특정 숫자에 id를 지정하고 그 id값을 대입하면 계산기를 만들 수 있을 것이라 생각했지만 더 간단한 방법은 이렇게 데이터 속성을 사용해서 숫자 데이터 값을 받은 다음 출력하면 되기때문에 이 방법이 필요_
-
-_사칙 연산의 함수를 만들어서 배열을 만든 후 데이터 값에 이러한 함수를 넣으면 기능을 수행하지 않을까?_
-
 
 
 + `id` 선언
@@ -100,28 +94,6 @@ _사칙 연산의 함수를 만들어서 배열을 만든 후 데이터 값에 �
   버튼 C, =
 
    
-
-### JS
-
-> 입력된 / 숫자들을 /  사칙 / 연산해서  / 결과 값을 보여줌
-
-+ 어떻게 입력되나?
-
-버튼에 할당된 숫자들을 눌러서 
-
-할당된 숫자들을 불러와서 사칙 연산의 함수에 넣을 필요성이 있음	 
-
-num class를 누르면 data-num을 반환
-
-muti class를 누르면 data-multi를 반환
-
-id equals를 누르면 data-result를 반환
-
-_다만 그 값이 ""이기 때문에 multi의 리턴값을 변환할 필요가 있음_
-
-> _[JS calculator](https://codepen.io/giana/pen/GJMBEv) 이 과정이 너무 어렵게 돼있어 포기_
->
-> +_내가 배운것과 너무 상이함_
 
 
 
@@ -143,7 +115,7 @@ _다만 그 값이 ""이기 때문에 multi의 리턴값을 변환할 필요가 
 </stript>
 ```
 
-이렇게하고 CSS이용해서 calculator는 숨기고 계산 값만 viewer를 통해서 출력하면 간단히 가능하다. 하지만 조건은 only Javascript라고 하였다. 
+
 
 
 
@@ -151,20 +123,12 @@ _다만 그 값이 ""이기 때문에 multi의 리턴값을 변환할 필요가 
 
 ## 실행 3
 
-`실행 2`1는 add함수에 문자열까지 다 표기가 되었고 `eval`이라는 내장 함수도 사용했다. 
 
-문제는 
 
-1. _viewer에 string이 보여진다는 것_
-2. _`eval`의 오류_
 
-`eval`의 오류는 연속된 string이 있다면 연산오류가 나버리는 것.
-
-이것을 해결하기 위해서는 string의 입력이 2번 초과일 경우 그 연산자에 대해서는 `calculator.value`에 추가하지 않아야한다.
 
 ```js
-// 중간과정
-// 구현해야할 것: 함수에 들어오는 변수가 숫자인지 연산자인지 구별해야함.
+
 let tOf= false; // 2번 연속 연산자면 1, 아니면 0
 function add(num){
     if(tOf === false){
@@ -193,29 +157,29 @@ function overlap(num){
 
 
 
-### `eval`의 오류: 연속된 string이 있다면 연산오류가 나버리는 것의 해결
+### `eval`의 오류
 
 > [HTML + javascript 계산기 만들기 프로젝트!](https://blog.cordelia273.space/32)
 
 ```js
 var numberClicked = false; // 전역 변수로 numberClicked를 설정
     function add (char) {
-        if(numberClicked == false) { // 만약 이전에 연산자를 입력 했는데,
-            if(isNaN(char) == true) { // 입력 받은 값이 또 다시 연산자면,
-                // 아무것도 하지 않는다.
-            } else { // 연산자가 아니라면!
-                document.getElementById('display').value += char; // 식 뒤에 값을 추가한다.
+        if(numberClicked == false) { 
+            if(isNaN(char) == true) { 
+               
+            } else { 
+                document.getElementById('display').value += char;
             }
-        } else { // 만약에 이전에 숫자를 입력 했으면,
-            document.getElementById('display').value += char; // 식 뒤에 값을 추가한다.
+        } else {
+            document.getElementById('display').value += char; 
         }
  
  
-        // 다음 입력을 위해 이번 입력에 숫자가 눌렸는지 연산자가 눌렸는지 설정한다.
-        if(isNaN(char) == true) { // "만약 숫자가 아닌게 참이라면" = "연산자를 눌렀다면"
-            numberClicked = false; // numberClicked를 false로 설정한다.
+        
+        if(isNaN(char) == true) { 
+            numberClicked = false; 
         } else {
-            numberClicked = true; // numberClicked를 true로 설정한다.
+            numberClicked = true; 
         }
     }
 ```
@@ -232,7 +196,7 @@ var numberClicked = false; // 전역 변수로 numberClicked를 설정
         
     if (flag2 >1)  
     {
-        return; //43# : 문자 입력이 2번 이상이면 리턴
+        return; 
     }
     f.disp.value += su;   
 }
@@ -246,9 +210,9 @@ _count 변수를 만들어서 연산자가 입력된 수를 제어_
 
 ```js
 function add(num){
-//input이 숫자인지 문자인지 판별
+
     if(isNaN(num) == true){
-        tofCount++;     //2연속 연산자면 0으로
+        tofCount++;     
     } else{ 
         tofCount=0;
     }
@@ -260,7 +224,7 @@ function add(num){
     if(tOf == false){
         claculation(num);
         calculator.value= eval(calculator.value);
-    } else {    //2연속 연산자면
+    } else {   
         return;
     }
 }
@@ -279,10 +243,6 @@ function add(num){
 
 
 > [HTMLJavaScript-계산기-만들기](https://olsh1108o.tistory.com/entry/HTMLJavaScript-계산기-만들기)
-
-내가 만든 계산기로는 이러한 것이 불가능함을 이것을 보고 깨달음. 코드를 갈아야함
-
-어칼까 일단 내고 다시 만들자
 
 
 
@@ -320,7 +280,7 @@ function add(num){
 
 `class` result result, reset reset, number, operation operation, number zero ,equals
 
-_두개로 나누어 선언한건 css / js 구별인듯_
+
 
    
 
@@ -353,8 +313,8 @@ _`numbers` `oprations`는 배열로 반환되는데 js-number / js-operation 의
 > [Arrow function expression](https://poiemaweb.com/es6-arrow-function)	//화살표 함수
 
 ```js
-// 매개변수 지정 방법
-    () => { ... } // 매개변수가 없을 경우
+
+    () => { ... } 
      x => { ... } // 매개변수가 한 개인 경우, 소괄호를 생략할 수 있다.
 (x, y) => { ... } // 매개변수가 여러 개인 경우, 소괄호를 생략할 수 없다.
 
@@ -448,7 +408,7 @@ function handleOperationClick(e) {
 ```js
 function handleReset() {
     ...
-  result.innerHTML = "0";	//나와 다르게 출력값을 다르게 설정함
+  result.innerHTML = "0";	
 }
 ```
 

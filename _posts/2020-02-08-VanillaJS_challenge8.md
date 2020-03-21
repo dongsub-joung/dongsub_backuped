@@ -54,9 +54,7 @@ function getDate(){
 setInterval(getDate, 1000);
 ```
 
-_시계를 한 클래스로 묶고 innerHTML하니까 sec에 해당하는 부분이 CSS 태그가 안먹혀서 span을 이용해서 분리 후 적용 시킴_
 
-   
 
 ---
 
@@ -64,15 +62,12 @@ _시계를 한 클래스로 묶고 innerHTML하니까 sec에 해당하는 부분
 
 + 유저 이름을 입력 받음
 + 유저이름을 저장	/	 불러옴
-+ 유저이름 입력창을 숨기고 거기에 text출력
 
 ----
 
 > 입력받은 값을 텍스트로 출력
 
 + 입력 값을 출력하는 함수
-
-_새로운 js파일로 작업하면 꼭 꼭 script 추가하자_
 
 ```js
 function paint(currentVal){
@@ -82,11 +77,7 @@ function paint(currentVal){
 }
 ```
 
-3번째 줄에 클래스를 추가하는 것은 값이 없어도 화면을 할당받기 때문에 
 
-숨기고, 보여지는 것을 번갈아가면서 하기 위함 
-
-   
 
 + 값을 입력 받는 이벤트
 
@@ -108,10 +99,6 @@ function saveVal(currentVal){
 }
 ```
 
-+ 만약 저장된 키가 없다면
-
-road가 시작점 if의
-
 
 
 ```js
@@ -122,33 +109,33 @@ const nameForm= document.querySelector(".nameForm"),
 
 const userName_CN="showing";
 
-function paint(text){   //키값이 입력된 후/  키값이 있는지 확인하고 있으면 기존 값을 불러와서 출력
+function paint(text){   
     nameForm.classList.remove(userName_CN);
     nameViewer.classList.add(userName_CN);   
     nameViewer.innerHTML= `Hi ${text}`;
 }
 
-function handleSubmit(event){   //입력값이 입력된 후 실행됨. 값을 저장하고, 출력함 이건 기존 값이 없어야 실행됨
+function handleSubmit(event){   
     event.preventDefault();
     const currentVal = input.value;
     paint(currentVal);
     saveVal(currentVal);
 }
 
-function saveVal(currentVal){   //입력된 값을 저장
+function saveVal(currentVal){   
     localStorage.setItem(`User`, currentVal);
 }
 
-function load(){  //이함수가 필요할 때는 기존 값이 존재할 때. 그리고 존재하면 기존 값을 불러와서 페인트 아니면 입력값을 받아야함
+function load(){  
     let currentVal= localStorage.getItem("User");
-    if(currentVal !== null){    //기존 값이 존재하면
+    if(currentVal !== null){    
         paint(currentVal);
     } else {
         askName();
     }
 }
 
-function askName(){ //입력밧을 받기 위해서 창을 띄움 이것은 기존 값이 없어야 가능
+function askName(){ 
     nameForm.classList.add(userName_CN);
     nameForm.addEventListener("submit", handleSubmit);
 }
@@ -180,7 +167,7 @@ const formInput= toDoForm.querySelector("input");
 
 let toDoListArry= [];
 
-function handleSubmit(event){   //값이 입력되면 기본 이벤트롤 막고, 입력값을 저장하고, 출력
+function handleSubmit(event){   
     event.preventDefault();
     const currentVal= formInput.value;
     paintList(currentVal);
@@ -189,7 +176,7 @@ function handleSubmit(event){   //값이 입력되면 기본 이벤트롤 막고
 
 const toDoViewer= document.querySelector(".toDoViewer");
 
-function paintList(text){   //입력값을 저장
+function paintList(text){   
     const li= document.createElement("li");
     const span= document.createElement("span");
     const delBtn= document.createElement("button");
@@ -226,7 +213,7 @@ function deleteBtn(event){
 
 const list_VAL="List";
 
-function loadPreVal(){  //입력되면, 입력값을 저장하고, 출력 그리고 그전에 저장값을 받아와서 /출력
+function loadPreVal(){  
     const getObj= localStorage.getItem(list_VAL);
     if(getObj !== null){
         const getString= JSON.parse(getObj);
@@ -236,7 +223,7 @@ function loadPreVal(){  //입력되면, 입력값을 저장하고, 출력 그리
     }
 }
 
-function saveArry(){  //배열에 저장, 오브젝트로
+function saveArry(){  
     localStorage.setItem(list_VAL, JSON.stringify(toDoListArry));
 }
 
@@ -255,12 +242,6 @@ init();
 ## 4. Random Background Image
 
 
-
-사진 갯수만큼 랜덤 정수 생성 
-
-사진 번호를 할당해서 보여주는 것
-
----
 
 ```js
 const body= document.querySelector("body");

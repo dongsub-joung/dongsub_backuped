@@ -35,23 +35,7 @@ tag: SQL
 
 ### 설치
 
-역사적인 순간
 
-```
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 8
-Server version: 8.0.18 MySQL Community Server - GPL
-
-Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
-
-Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-
-mysql>
-```
 
 파일은 접근, 수정이 쉬움
 
@@ -209,7 +193,7 @@ INSERT INTO topic (title,description,created,author,profile) VALUES('MySQL','MyS
 Query OK, 1 row affected (0.41 sec)
 ```
 
-_서버 개발하는 사람 존경 레알 로우 언어라 불편 그 자체네  ㅇ아ㅏ악_
+
 
 데이터 로드
 
@@ -230,10 +214,6 @@ mysql> SELECT*FROM topic;
 
 
 #### SELECT
-
-=필요에 따라서 데이터를 잘 보는 것
-
-_C처럼 절차가 중요한 듯_
 
 `SELECT`  column `FROM` table `WHERE `특정 행의 데이터 `ORDER BY` id `DESC`;
 
@@ -263,7 +243,7 @@ Query OK, 1 row affected (0.27 sec)
 Rows matched: 1  Changed: 1  Warnings: 0
 ```
 
-> WHERE문을 안 쓰면 데이터 전체가 수정되니까 조심해야 함.
+
 
    
 
@@ -282,13 +262,9 @@ Query OK, 1 row affected (0.18 sec)
 
 데이터의 중복 > 개선할 필요성이 있음
 
-> 중복된 값을 다시 표로 만들어서 id를 부여하면 
->
-> 수정이 용이함.
->
-> 동명이인의 경우에도 id값이 다른 사용자의 정보이기 때문에 식별 가능
 
-_저장은 분산해서 출력은 합쳐서_
+
+
 
 ​    
 
@@ -309,7 +285,7 @@ _저장은 분산해서 출력은 합쳐서_
 
 + 데이터 베이스의 역할
 
-> 생각해보니 이거 외래 참조키?이야기 아님?
+
 
 ```
 SELECT* FROM topic LEFT JOIN author ON topic.author_id= author.id;
@@ -317,13 +293,13 @@ SELECT* FROM topic LEFT JOIN author ON topic.author_id= author.id;
 
 JOIN의 기준 `ON`
 
-> `*`은 모든 column 출력을 의미
+
 
 ```
 SELECT topic.id,title,description,created,name,profile FROM topic LEFT JOIN author ON topic.author_id= author.id;
 ```
 
-`지정`만 가능한 듯.. `지정안함`의 옵션은 없는 듯?
+
 
 + 테이블 합칠 때 id값 수정 가능
 
@@ -331,17 +307,13 @@ SELECT topic.id,title,description,created,name,profile FROM topic LEFT JOIN auth
 SELECT topic.id AS topic_id, .....
 ```
 
-모든 테이블에 관계하고 있기 때문에 유지 보수가 매우 매우 편함
+
 
    
 
 #### MySQL Workbench
 
 + My SQL client 중 하나
-
-어떤 언어를 쓰던 모든 클라이언트들은 mysql서버를 전송함으로써 데이터베이스를 제어
-
-실제로 제어 못함. 그저 간접적으로만
 
 =우리가 하는 것은 sql문을 생성에서 서버에 전송하는 것
 

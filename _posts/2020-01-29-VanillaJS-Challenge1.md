@@ -19,7 +19,7 @@ How does JavaScript execute our code?
 
 ---
 
-## Based on the videos #2.1 - #2.4	//복습
+## Based on the videos #2.1 - #2.4	
 
 ```
 console.log();
@@ -79,13 +79,7 @@ if 마우스 인  mouseup
 
 else 마우스 아웃
 
----
 
-colorChange함수를 만들어서 각각의 이벤트 실행 시에 넣으면 자동으로 변하지 않을까? 
-
-colorArray= [`red`, `blur`, `gray`, `DarkOrange`, `Green`]를 만들어서 하나씩 적용하면?
-
-랜덤 숫자를 생성해서 배열 순서로 한다면?
 
 
 

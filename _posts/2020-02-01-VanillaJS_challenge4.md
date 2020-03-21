@@ -98,7 +98,7 @@ function loadCountries() {
 
 `country`라는 key값을 불러와서 변수에 저장
 
-만약 변수가 존재한다면 html전체에서 `option`에 관련된 원소 항목을 가져옴
+
 
 _관련된 원소 항목: 선택된 value_
 

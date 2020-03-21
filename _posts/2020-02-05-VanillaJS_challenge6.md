@@ -18,45 +18,9 @@ _Make a number guessing game using Javascript!_
 
    
 
-> 조건되는 것들
-
-+ 사용자가 숫자를 입력해서 컴퓨터가 그것을 맞추면 이기고, 못맞추면 지는 게임.
-+ 숫자의 범위는 `바`로 이동(=변화)시킬 수 있음
-+ 몇번이고 재도전 가능
-
-
-
 ---
 
-## 알고리즘
-
-숫자 찾는 게임 응용? C언어로 만들어본 적있음
-
-> 생각
-
-+ 랜덤한 정수 생성하기
-
-  `random()*130` 인데 아마 ? c처럼 패턴 있는 랜덤 숫자라서 시간 변수를 연동해야함.
-
-  `range` 사용
-
-+ `real time`으로 범위값을 업뎃
-
-  ?
-
-  `toggle` 이용해서 이전 함수를 제거하고 추가? 
-
-+ 결과 text 만들기
-
-  `if else`
-
-+ 스크롤 바를 만들어야 함.
-
-
-
----
-
-## 정보 수집
+## 정보
 
 ### [Range](https://developer.mozilla.org/ko/docs/Web/API/Range)
 
@@ -70,7 +34,7 @@ A range can be created by using the [`Document.createRange()`](https://developer
 >
 > `retrieve`: _selection.getRangeAt()  OR  document.caretRangeFromPoint()_
 
-_`HTML` input type="range" 존재함. 내가 찾던건 이거였음_
+_`HTML` input type="range" 존재함. 
 
    
 
@@ -149,20 +113,19 @@ someOtherNode.textContent = string;
 ### [input type range 슬라이더 value 값 실시간표시, oninput](https://doolyit.tistory.com/52)
 
 ```js
-//1차 도전
-//range 값조정
+
 let rangeScroll= document.getElementById("rangeScroll");
 let selectedNum= document.querySelector(".selectedNum");
 document.getElementById("rangeScroll").setAttribute("max", 100);
 let max = document.getElementById("rangeScroll").getAttribute("max");
 
-// 범위 max를 연동해야 함 =max값을 변동시켜야함.
+
 function changeRange(max){
     selectedNum =`Generate a number beween 0 and ${max}`;
     return selectedNum.textContent;
 }
 
-//2차 도전
+
 let rangeScroll= document.getElementById("rangeScroll");
 let oniputVal= rangeScroll.innerHTML;
 function change(){
@@ -183,7 +146,7 @@ function showSliderValue(val){
 ```
 
 ```js
-//html말고 js로 정리해서 입력
+
 const sliderValueView= document.getElementById('sliderValueView');
 const rangeScroll= document.getElementById(`rangeScroll`);
 rangeScroll.setAttribute("oninput", "sliderValueView.innerHTML=rangeScroll.value");
@@ -199,26 +162,19 @@ rangeScroll.setAttribute("oninput", "sliderValueView.innerHTML=rangeScroll.value
 
 _value값 변경_
 
-> 나:	 `setattribute-oninput`
+> 
 >
 >  `datalist-option`  
 
 _input type="range"_
 
-> 나:	`id` `min` `max` `value` `step`
+> 
 >
-> 추가적으로 `list="number"`
+>  `list="number"`
 
 _input type="number"_
 
-```html
-//나
-<form>
-  Guess the number 
-  <input type="number" id="numberId" />
-  <input type="button" value="play!" id="playId" />
-</form>
-```
+
 
 ```html
 //답안

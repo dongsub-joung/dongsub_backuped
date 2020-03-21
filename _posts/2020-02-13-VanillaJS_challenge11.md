@@ -24,17 +24,9 @@ tag: VanillaJS Challenge
 
 ![993E1E355B06A81B13](https://user-images.githubusercontent.com/59364300/74423741-17399f00-4e94-11ea-8c3a-c879e96c9e94.png)
 
-padding, margin 0으로 하고 
 
-boder 1px
 
-0만 좀 길게하고 
 
-사칙연산 배경색 넣고
-
-결과창 margin-left 좀 넣어서 공간 만들고 배경색
-
-> 버튼 배열은
 
 결과창 | c
 
@@ -54,7 +46,7 @@ boder 1px
 
 ### HTML
 
-> button 사용
+> button 
 
 ```html
 <!DOCTYPE html>
@@ -104,12 +96,12 @@ boder 1px
 const calculator= document.getElementById("calculator"),
  equals= document.getElementById("equals");
 
-let tOf= false, // 2번 연속 연산자면 1, 아니면 0
+let tOf= false, 
  tofCount=0;
 
-function add(num){  //input이 숫자인지 문자인지 판별
+function add(num){  
     if(isNaN(num) == true){
-        tofCount++;     //2연속 연산자면 0으로
+        tofCount++;     
     } else{ 
         tofCount=0;
     }
