@@ -25,7 +25,7 @@ Q.  변수가 없으면 서버는 무한 Lording
 
 ```
 app.get("/profile", handleProfile);
-```
+​```
 
 + babel
   `stage`
@@ -58,5 +58,4 @@ app.get("/profile", handleProfile);
 + Model, View, Control
   data, how does the data look, function that looks for the data
 + `Pub`
-  express에서 View를 다루는 방식 중 하나 //HTML 전달 ,
-
+  express에서 View를 다루는 방식 중 하나 //HTML 전달 
