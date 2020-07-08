@@ -214,53 +214,7 @@ layout: base
                     <div id="disqus_thread"></div>
 <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://sociology-se.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-                    {%- endif -%}
-                </article>
-                {%- include main/bottom/custom.html -%}
-              </div>
-            </div>
-
-        {%- if _full_width == false -%}
-          </div>
-        {%- endif -%}
-        </div>
-
-        {%- if _footer != false -%}
-          <div class="page__footer d-print-none">{%- include footer.html -%}</div>
-        {%- endif -%}
-      </div>
-    </div> {%- comment -%} end page__main {%- endcomment -%}
-{%- if page.sidebar -%}
-    </div> {%- comment -%} end grid {%- endcomment -%}
-  </div> {%- comment -%} end page__viewport {%- endcomment -%}
-{%- endif -%}
-
-<script>{%- include scripts/lib/modal.js -%}</script>
-{%- if _lightbox == true -%}
-  <div class="modal d-print-none js-page-gallery-modal"><div class="gallery"></div></div>
-{%- endif -%}
-{%- if _header != false -%}
-  <div class="modal modal--overflow page__search-modal d-print-none js-page-search-modal">{%- include search.html -%}</div>
-{%- endif -%}
-</div>
 
 
 <script>
