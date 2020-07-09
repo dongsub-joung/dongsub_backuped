@@ -56,3 +56,37 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+docs-en:
+  - title:      Front-end
+    children:
+      - title:  Banilla JavaScript
+        url:    /docs/en/quick-start
+      - title:  Customization Blog
+        url:    /docs/en/structure
+
+
+  - title:      Back-end
+    children:
+      - title:  MySQL
+        url:    /docs/en/configuration
+      - title:  node.JS
+        url:    /docs/en/navigation
+      - title:  mongoDB
+        url:    /docs/en/navigation
+
+
+  - title:      System engineer
+    children:
+      - title:  C
+        url:    /docs/en/configuration
+      - title:  JAVA
+        url:    /docs/en/navigation
+
+
+  - title:      Project
+    children:
+      - title:  Sociology bookList maintenance tool
+        url:    /docs/en/configuration
+      - title:  Engineer Information Processing
+        url:    /docs/en/navigation
