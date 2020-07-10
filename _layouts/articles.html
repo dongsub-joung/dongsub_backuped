@@ -31,8 +31,11 @@ layout: page
 
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
 
-//music
+<p></p>
 {%- include extensions/youtube.html id='J3K3V36mlLM' -%}
+<script>
+  document.getElementById('#J3K3V36mlLM').contentWindow.document.getElementById("autoplay=1");
+</script>
 
 {%- if _articles -%}
 
