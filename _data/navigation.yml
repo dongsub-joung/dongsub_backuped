@@ -61,32 +61,36 @@ docs-en:
   - title:      Front-end
     children:
       - title:  Banilla JavaScript
-        url:    /docs/en/quick-start
-      - title:  Customization Blog
-        url:    /docs/en/structure
+        url:    https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge
+      - title:  Customization gitBlog
+        url:    https://dongsub-joung.github.io/archive.html?tag=Jekyll
+      - title:  Customization sociology Blog
+        url:    
 
 
   - title:      Back-end
     children:
       - title:  MySQL
-        url:    /docs/en/configuration
+        url:    https://dongsub-joung.github.io/archive.html?tag=SQL
       - title:  node.JS
-        url:    /docs/en/navigation
+        url:    https://dongsub-joung.github.io/archive.html?tag=nodejs
       - title:  mongoDB
-        url:    /docs/en/navigation
+        url:    
 
 
   - title:      System engineer
     children:
       - title:  C
-        url:    /docs/en/configuration
+        url:    
       - title:  JAVA
-        url:    /docs/en/navigation
+        url:    
 
 
   - title:      Project
-    children:
+    children:   
+      - title:  Portfolio
+        url:    https://dongsub-joung.github.io/archive.html?tag=portfolio
       - title:  Sociology bookList maintenance tool
-        url:    /docs/en/configuration
+        url:    https://dongsub-joung.github.io/archive.html?tag=%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC
       - title:  Engineer Information Processing
-        url:    /docs/en/navigation
+        url:    https://dongsub-joung.github.io/archive.html?tag=%EC%A0%95%EC%B2%98%EA%B8%B0
