@@ -1,51 +1,20 @@
 ---
-layout: article
-titles: Docs
-key: page-about
+titles: Sociology bookList maintenance tool
 sidebar:
   nav: docs-en
 ---
 
-
-<img class="image image--xl" src="\INTP.png"/>
-
-
-## Hello! C
-Self-study 
-> 2017 
-
-Lecture
-> 2019.1학기
-
-##  Hello! Blog 
-Starting Blog project
-> 2020.01.04 ~ 01.06
-
-##  Learn JavaScript 
-Vanilla JavaScript 생활코딩
->2020.01.24 ~ 01.29
-
-Vanilla JavaScript Challenge
-> 2020.01.29 ~ 02.14
-
-##  Build up Portfolio 
-> 2020.02.15 ~ 02.16
-
-##  My SQL 
-> 2020.02.17 ~ 02.18
-
-## JAVA
-생활코딩, 이론
-> 2020.02
-
-##  Sociology bookList maintenance tool 
-> 2020.02.26 ~ 03.11,
+#  Sociology bookList maintenance tool 
+>  2020.02.26 ~ 03.11,
 >  Java only,
 >  incompletion
 
-##  Engineer Information Processing 
-> 2020.07.01 ~
+겨울방학을 이용해서 무언가를 만들고 싶었는데 웹 말고 프로그램을 만들고 싶었다. 단순히 학과에서 엑셀을 이용해서 도서를 검색하고, 도서명부에 대출자를 기록하는 것이 불편해보였고, 나름대로 자동화될 것 같아서 시도해보았다. 결론적으로 개발기간이 길어지면서 1학기 개강으로 인하여 다 만들지는 못했지만 나중에라도 완성하고 싶다.
 
-## SW Dev
-[C/C++](https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G261)
-> 2020.07.12 ~
+이 프로젝트의 목표는
+
+1. 도서 명부의 디지털화
+  + 매번 도서 명부의 종이를 정리하는 것을 없애고 싶어서 
+  + 도서 명부의 개인정보를 숨기고 싶었고,
+ 
+2. 도서 검색, 대출 기능 통합 플랫폼 구현
