@@ -2,7 +2,7 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       About_Me
+  en      : &EN       About
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-> 강원대학교 사회학과 재학
+강원대학교 사회학과 (재)
 
-웹(HTML, CSS), JavaScript, Java, C
-front-End
-Back-End
+사회학하는 사람입니다.

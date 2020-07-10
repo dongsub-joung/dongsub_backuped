@@ -6,30 +6,29 @@ sidebar:
   nav: docs-en
 ---
 
-#### Category
 
-## ✔ 블로그
-#### [-Jekyll-](https://dongsub-joung.github.io/archive.html?tag=Jekyll)  
+## - Hello! Blog -
 
-#### [-Portfolio-](https://dongsub-joung.github.io/archive.html?tag=portfolio)
+Starting Blog project
+> 2020.01.04 ~ 01.06
 
+## - Learn JavaScript -
+Vanilla JavaScript 생활코딩
+>2020.01.24 ~ 01.29
 
-## ✔ Font-End
-#### -JavaScript-
-  + [Vanilla JavaScript](https://dongsub-joung.github.io/archive.html?tag=vanilla+JavaScript)
-  + [Challenge](https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge)
+Vanilla JavaScript Challenge
+> 2020.01.29 ~ 02.14
 
-## ✔ Back-End
-#### [-SQL-](https://dongsub-joung.github.io/archive.html?tag=SQL)
-#### [-Docker-]()
+## - Build up Portfolio -
+> 2020.02.15 ~ 02.16
 
+## - My SQL -
+> 2020.02.17 ~ 02.18
 
-## ✔ Project
-#### [-도서 관리 프로그램-](https://dongsub-joung.github.io/archive.html?tag=%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC)
+## - Sociology bookList maintenance tool -
+> 2020.02.26 ~ 03.11
 > Java only
+> incompletion
 
-## ✔ e.t.c
-#### [-기타-](https://dongsub-joung.github.io/archive.html?tag=etc)
-
-
-##### <center> Archive Rink로 이동합니다. </center>
+## - Engineer Information Processing -
+> 2020.07.01 ~
