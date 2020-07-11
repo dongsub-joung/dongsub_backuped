@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: Sociology bookList maintenance tool
-key: page-about
 sidebar:
   nav: docs-en
 ---

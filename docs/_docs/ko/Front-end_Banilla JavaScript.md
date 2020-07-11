@@ -1,7 +1,6 @@
 ---
-layout: article
 titles: Banilla JavaScript
-key: Front-end
+permalink: /docs/ko/Banilla JavaScript
 sidebar:
   nav: docs-en
 ---
