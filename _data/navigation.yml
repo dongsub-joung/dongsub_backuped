@@ -34,7 +34,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       About_I
+      en      : &EN       About
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -55,43 +55,43 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /about.html
+    url: /about
 
 
 docs-en:
   - title:      Front-end
     children:
       - title:  Banilla JavaScript
-        url:    /myDoc/JS.md
+        url:    myDoc/JS
       - title:  Customization gitBlog
-        url:    /myDoc/gitblog.md
+        url:    myDoc/gitblog
       - title:  Customization sociology Blog
-        url:    /myDoc/sociologyBlog.md
+        url:    myDoc/sociologyBlog.md
 
 
   - title:      Back-end
     children:
       - title:  MySQL
-        url:    /_data/docs/_docs/ko/MySQL.md
+        url:    /myDoc/MySQL.md
       - title:  node.JS
-        url:    /_data/docs/_docs/ko/nodejs.md
+        url:   /myDoc/nodejs.md
       - title:  mongoDB
-        url:    /_data/docs/_docs/ko/mongoDB.md
+        url:    /myDoc/mongoDB.md
 
 
   - title:      System engineer
     children:
       - title:  C
-        url:    /_data/docs/_docs/ko/C.md
+        url:    /myDoc/C.md
       - title:  JAVA
-        url:    /_data/docs/_docs/ko/JAVA.md
+        url:    /myDoc/JAVA.md
 
 
   - title:      Project
     children:   
       - title:  Portfolio
-        url:    /_data/docs/_docs/ko/portfolio.md
+        url:    /myDoc/portfolio.md
       - title:  Sociology bookList maintenance tool
-        url:    /_data/docs/_docs/ko/bookListTool.md
+        url:    /myDoc/bookListTool.md
       - title:  Engineer Information Processing
-        url:    /_data/docs/_docs/ko/EIPtest.md
+        url:    /myDoc/EIPtest.md
