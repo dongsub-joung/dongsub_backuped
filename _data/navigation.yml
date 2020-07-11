@@ -62,11 +62,11 @@ docs-en:
   - title:      Front-end
     children:
       - title:  Banilla JavaScript
-        url:    myDoc/JS
+        url:    /myDoc/JS
       - title:  Customization gitBlog
-        url:    myDoc/gitblog
+        url:    /myDoc/gitblog
       - title:  Customization sociology Blog
-        url:    myDoc/sociologyBlog.md
+        url:    /myDoc/sociologyBlog.md
 
 
   - title:      Back-end
@@ -74,7 +74,7 @@ docs-en:
       - title:  MySQL
         url:    /myDoc/MySQL.md
       - title:  node.JS
-        url:   /myDoc/nodejs.md
+        url:    /myDoc/nodejs.md
       - title:  mongoDB
         url:    /myDoc/mongoDB.md
 
