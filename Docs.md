@@ -1,7 +1,5 @@
 ---
-layout: article
 titles: Docs
-key: page-about
 sidebar:
   nav: docs-en
 ---
