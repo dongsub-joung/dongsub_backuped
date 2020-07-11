@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: C
-key: page-about
 sidebar:
   nav: docs-en
 ---

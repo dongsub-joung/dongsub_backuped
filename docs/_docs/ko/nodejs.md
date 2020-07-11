@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: nodejs
-key: page-about
 sidebar:
   nav: docs-en
 ---

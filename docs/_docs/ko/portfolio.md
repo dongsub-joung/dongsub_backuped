@@ -1,4 +1,5 @@
 ---
+layout: article
 titles: portfolio
 sidebar:
   nav: docs-en

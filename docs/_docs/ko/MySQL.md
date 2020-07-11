@@ -1,4 +1,5 @@
 ---
+layout: article
 titles: MySQL
 sidebar:
   nav: docs-en

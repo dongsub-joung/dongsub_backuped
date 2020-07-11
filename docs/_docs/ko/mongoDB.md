@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: mongoDB
-key: page-about
 sidebar:
   nav: docs-en
 ---

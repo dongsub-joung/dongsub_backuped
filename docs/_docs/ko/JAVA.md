@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: JAVA
-key: page-about
 sidebar:
   nav: docs-en
 ---

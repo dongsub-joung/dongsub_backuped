@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: Engineer Information Processing 
-key: page-about
 sidebar:
   nav: docs-en
 ---

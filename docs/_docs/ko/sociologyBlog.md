@@ -1,7 +1,6 @@
 ---
 layout: article
 titles: sociologyBLOG
-key: page-about
 sidebar:
   nav: docs-en
 ---
