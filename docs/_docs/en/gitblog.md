@@ -1,5 +1,7 @@
 ---
-titles: GITBLOG
+layout: article
+titles: gitblog
+key: page-about
 sidebar:
   nav: docs-en
 ---

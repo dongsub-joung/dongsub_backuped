@@ -1,5 +1,7 @@
 ---
+layout: article
 titles: JavaScript
+key: page-about
 sidebar:
   nav: docs-en
 ---

@@ -1,11 +1,10 @@
 ---
+layout: article
 titles: Engineer Information Processing 
+key: page-about
 sidebar:
   nav: docs-en
 ---
-
-
-<img class="image image--xl" src="\INTP.png"/>
 
 ##  Engineer Information Processing 
 > 2019.여름 방학 
