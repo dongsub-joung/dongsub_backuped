@@ -66,32 +66,32 @@ docs-en:
       - title:  Customization gitBlog
         url:    /myDoc/gitblog
       - title:  Customization sociology Blog
-        url:    /myDoc/sociologyBlog.md
+        url:    /myDoc/sociologyBlog
 
 
   - title:      Back-end
     children:
       - title:  MySQL
-        url:    /myDoc/MySQL.md
+        url:    /myDoc/MySQL
       - title:  node.JS
-        url:    /myDoc/nodejs.md
+        url:    /myDoc/nodejs
       - title:  mongoDB
-        url:    /myDoc/mongoDB.md
+        url:    /myDoc/mongoDB
 
 
   - title:      System engineer
     children:
       - title:  C
-        url:    /myDoc/C.md
+        url:    /myDoc/C
       - title:  JAVA
-        url:    /myDoc/JAVA.md
+        url:    /myDoc/JAVA
 
 
   - title:      Project
     children:   
       - title:  Portfolio
-        url:    /myDoc/portfolio.md
+        url:    /myDoc/portfolio
       - title:  Sociology bookList maintenance tool
-        url:    /myDoc/bookListTool.md
+        url:    /myDoc/bookListTool
       - title:  Engineer Information Processing
-        url:    /myDoc/EIPtest.md
+        url:    /myDoc/EIPtest
