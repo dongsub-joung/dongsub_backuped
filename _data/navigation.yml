@@ -62,7 +62,7 @@ docs-en:
   - title:      Front-end
     children:
       - title:  Banilla JavaScript
-        url:    /_data/docs/_docs/ko/JS.md
+        url:    /docs/ko/JS
       - title:  Customization gitBlog
         url:    /_data/docs/_docs/ko/gitblog.md
       - title:  Customization sociology Blog
