@@ -1,7 +1,7 @@
 ---
 layout: article
-titles: JavaScript
-key: page-about
+titles: Banilla JavaScript
+key: Front-end
 sidebar:
   nav: docs-en
 ---
