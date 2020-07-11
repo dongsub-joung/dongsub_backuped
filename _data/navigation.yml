@@ -62,36 +62,36 @@ docs-en:
   - title:      Front-end
     children:
       - title:  Banilla JavaScript
-        url:    docs\_docs\en\JS
+        url:    /_data/docs/_docs/ko/JS
       - title:  Customization gitBlog
-        url:    docs\_docs\en\gitblog
+        url:    /_data/docs/_docs/ko/gitblog
       - title:  Customization sociology Blog
-        url:    docs\_docs\en\sociologyBlog
+        url:    /_data/docs/_docs/ko/sociologyBlog
 
 
   - title:      Back-end
     children:
       - title:  MySQL
-        url:    docs\_docs\en\MySQL
+        url:    /_data/docs/_docs/ko/MySQL
       - title:  node.JS
-        url:    docs\_docs\en\nodejs
+        url:    /_data/docs/_docs/ko/nodejs
       - title:  mongoDB
-        url:    docs\_docs\en\mongoDB
+        url:    /_data/docs/_docs/ko/mongoDB
 
 
   - title:      System engineer
     children:
       - title:  C
-        url:    docs\_docs\en\C
+        url:    /_data/docs/_docs/ko/C
       - title:  JAVA
-        url:    docs\_docs\en\JAVA
+        url:    /_data/docs/_docs/ko/JAVA
 
 
   - title:      Project
     children:   
       - title:  Portfolio
-        url:    docs\_docs\en\portfolio
+        url:    /_data/docs/_docs/ko/portfolio
       - title:  Sociology bookList maintenance tool
-        url:    docs\_docs\en\bookListTool
+        url:    /_data/docs/_docs/ko/bookListTool
       - title:  Engineer Information Processing
-        url:    docs\_docs\en\EIPtest
+        url:    /_data/docs/_docs/ko/EIPtest
