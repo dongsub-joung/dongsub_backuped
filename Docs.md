@@ -1,4 +1,5 @@
 ---
+layout: article
 titles: Docs
 sidebar:
   nav: docs-en
@@ -8,21 +9,21 @@ sidebar:
 
 
 ## Hello! C
-Self-study 
++ **Self-study**
 > 2017 
 
-Lecture
++ **Lecture**
 > 2019.1학기
 
-##  Hello! Blog 
-Starting Blog project
+##  Hello! Blog
+**Starting Blog project**
 > 2020.01.04 ~ 01.06
 
 ##  Learn JavaScript 
-Vanilla JavaScript
++ **Vanilla JavaScript**
 >2020.01.24 ~ 01.29
 
-Challenge
++ **Challenge**
 > 2020.01.29 ~ 02.14
 
 ##  Build up Portfolio 

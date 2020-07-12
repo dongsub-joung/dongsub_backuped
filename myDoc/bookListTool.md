@@ -3,8 +3,10 @@ layout: article
 titles: Sociology bookList maintenance tool
 sidebar:
   nav: docs-en
+article__header: false
 ---
 
+Sociology bookList maintenance tool
 
 ### 기간
 >  2020.02.26 ~ 03.11
