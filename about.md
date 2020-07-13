@@ -26,14 +26,14 @@ titles:
 key: page-about
 ---
 
-<img class="image image--xl" src="\INTP.png"/>
+<img class="image image--xl" src="\INTP.png"/" align="right" border-radius="70%">
 
 
 
 ## 강원대학교 사회학과 (재)
   
   
----
+
   
   
 ## 특이사항
@@ -42,7 +42,7 @@ key: page-about
 **音ゲー**  
   
   
----
+
   
   
 ## 사이트
