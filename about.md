@@ -26,19 +26,39 @@ titles:
 key: page-about
 ---
 
-<img align="right" border-radius="70%" class="image image--xl" src="\INTP.png"/>
+<img align="right" class="image image--xl" src="\INTP.png"/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
   
   
 ## 특이사항
-**사회학**  
-**철학, 심리학**  
-**경제학**  
-**일본어**  
+### 문과적
+**1. 사회학**  
+**2. 철학, 심리학**  
+**3. 경제학**  
+**4. 일본어**  
+  
+### 이과적
+**Programming**
+
+### 취미
 **INTP**  
 **音ゲー**  
+**アニメ**
   
   
   
