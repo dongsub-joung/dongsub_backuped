@@ -26,23 +26,23 @@ titles:
 key: page-about
 ---
 
-<img class="image image--xl" src="\INTP.png"/" align="right" border-radius="70%">
-
-
-
-## 강원대학교 사회학과 (재)
+<img align="right" border-radius="70%" class="image image--xl" src="\INTP.png"/>
   
   
-
+  
   
   
 ## 특이사항
+**사회학**  
+**철학, 심리학**  
+**경제학**  
 **일본어**  
 **INTP**  
 **音ゲー**  
   
   
-
+  
+  
   
   
 ## 사이트
