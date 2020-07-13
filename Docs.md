@@ -3,7 +3,7 @@ layout: article
 titles: Docs
 sidebar:
   nav: docs-en
-toc: ture
+toc: true
 ---
 
 
