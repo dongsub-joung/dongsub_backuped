@@ -1,13 +1,5 @@
 header:
   - titles:
-        en      : &EN       Docs
-    url: /Docs.html
-
-    - titles:
-        en      : &EN       Portfolio
-    url: https://dongsub-joung.github.io/web/result/intro.html
-
-  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
@@ -31,7 +23,7 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
-    
+
   - titles:
       # @start locale config
       en      : &EN       About
@@ -48,50 +40,11 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       소개
       ko-KR   : *KO
-      fr      : &KO       À propos
+      fr      : &FR       À propos
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /about
-
-
-docs-en:
-  - title:      Front-end
-    children:
-      - title:  Banilla JavaScript
-        url:    /myDoc/JS
-      - title:  Customization gitBlog
-        url:    /myDoc/gitblog
-      - title:  Customization sociology Blog
-        url:    /myDoc/sociologyBlog
-
-
-  - title:      Back-end
-    children:
-      - title:  MySQL
-        url:    /myDoc/MySQL
-      - title:  node.JS
-        url:    /myDoc/nodejs
-      - title:  mongoDB
-        url:    /myDoc/mongoDB
-
-
-  - title:      System engineer
-    children:
-      - title:  C
-        url:    /myDoc/C
-      - title:  JAVA
-        url:    /myDoc/JAVA
-
-
-  - title:      Project
-    children:   
-      - title:  Portfolio
-        url:    /myDoc/portfolio
-      - title:  Sociology bookList maintenance tool
-        url:    /myDoc/bookListTool
-      - title:  Engineer Information Processing
-        url:    /myDoc/EIPtest
+    url: /about.html
