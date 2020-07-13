@@ -2,9 +2,11 @@ header:
   - titles:
         en      : &EN       Docs
     url: /Docs.html
+
     - titles:
         en      : &EN       Portfolio
     url: https://dongsub-joung.github.io/web/result/intro.html
+
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -29,6 +31,7 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
+    
   - titles:
       # @start locale config
       en      : &EN       About
