@@ -27,50 +27,45 @@ key: page-about
 ---
 
 <img align="right" class="image image--xl" src="\INTP.png"/>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-## 특이사항
+
 ### 문과적
+
 **1. 사회학**  
 **2. 철학, 심리학**  
 **3. 경제학**  
-**4. 일본어**  
-  
+**4. 일본어**   
+
+
+
 ### 이과적
-**Programming**
+
++ **programming**
+
+
+
+
 
 ### 취미
-**INTP**  
-**音ゲー**  
-**アニメ**
+
+**1. 音ゲー**  
+**2. アニメ**
+**3. 독서**
+
   
+
   
-  
-  
-  
-  
+
+
 ## 사이트
 [Web 계열 포트폴리오](https://dongsub-joung.github.io/web/result/intro.html)  
-  
-  
+
 [github profile](https://github.com/dongsub-joung)  
-  
-  
+
 [사회학 블로그](https://intp-sociology.tistory.com/)  
-  
+
+
+
+
+
+
+---

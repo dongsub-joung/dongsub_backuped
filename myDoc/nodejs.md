@@ -5,10 +5,22 @@ sidebar:
   nav: docs-en
 ---
 
-## 계기
-유튜브 클론 만들면서 배우는 중!
+<img class="image image--xl" src=""/>
 
-## 배운 거
+### nodejs
+
+  
+
+1. #### 유튜브 클론 by 노마드 코더
+
+> 2020.06. ~ ?
+
 + express
   + babel
   + pug
+
+  
+
+  
+
+---
