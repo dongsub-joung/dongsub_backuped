@@ -24,8 +24,34 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+// ![Image](){:.border.rounded}
 ---
 
-강원대학교 사회학과 (재)
+<div class="hero hero--center hero--dark" style='background-image: url("/postmodenism.jpg");'>
+  <div class="hero__content">
+    <h3></h3>
+    <p></p>
+  </div>
+</div>
 
-사회학하는 사람입니다.
+
+
+
+
+## 강원대학교 사회학과 (재)
+> 사회학, 철학하는 사람입니다.
+
+
+---
+
+
+## 특이사항
+**일본어**
+
+
+---
+
+
+## 사이트
+[Web 계열 포트폴리오](https://dongsub-joung.github.io/web/result/intro.html) 
+[github profile](https://github.com/dongsub-joung)

@@ -1,5 +1,10 @@
 header:
   - titles:
+      en      : &EN       Docs
+      ko      : &KO       목록
+    url: /Docs.html
+
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
