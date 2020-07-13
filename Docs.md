@@ -1,5 +1,5 @@
 ---
-layout: article
+
 titles: Docs
 sidebar:
   nav: docs-en
