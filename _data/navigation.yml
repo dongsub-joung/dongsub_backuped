@@ -54,7 +54,7 @@ header:
       # @end locale config
     url: /about.html
 
-//doc
+
 docs-en:
   - title:      Front-end
     children:
@@ -96,8 +96,6 @@ docs-en:
         url:    /myDoc/TDD
 
 
-
-//bookList proj
 bookList-en:
   - title:      환경 구축
     children:
