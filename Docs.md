@@ -3,7 +3,6 @@
 titles: Docs
 sidebar:
   nav: docs-en
-toc: true
 ---
 
 
@@ -14,9 +13,6 @@ toc: true
 
   
 
-[TOC]
-
-  
 
   
 
