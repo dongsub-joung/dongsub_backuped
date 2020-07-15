@@ -28,16 +28,27 @@ key: page-about
 
 <img align="right" class="image image--xl" src="\INTP.png"/>
 
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+   
+
+#  
+
+# 
+
+  
+
+# 
+
+  
+
+# 
+
+  
+
+# 
+
+  
+
+# 
 
 **1. 사회학**  
 
@@ -50,7 +61,7 @@ key: page-about
 
 
 
-### 직군
+### 직군 - 기술
 **programming**
 
 
@@ -61,8 +72,8 @@ key: page-about
 
 2. 音ゲー(최근에 다시 시작), 작혼
    
-     
-       
+   
+   ​    
 ---
 
 ### 취미였던 것
@@ -71,9 +82,9 @@ key: page-about
 **2. アニメ(잘 안봄)**  
 
 
-  
 
-  
+
+
 
 
 ## 사이트
