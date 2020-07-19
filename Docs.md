@@ -116,7 +116,7 @@ sidebar:
 
 ## SW Dev
 
-[C/C++](https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G261)
+[C/C++](https://comento.kr/edu/schedule/1355)
 
 > 2020.07.12 ~
 
