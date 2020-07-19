@@ -35,3 +35,110 @@ tag: cpp
 
 또 표준 라이브러리에 도입된 새로운 기능이 충돌할 수 있으므로 한 버전의 C++에서 컴파일될 프로그램이 향후 버전의 C++에서 컴파일되지 않을 수 있다. 그래서 **C++은 표준 라이브러리의 모든 기능을 `std namespace`라는 특별한 영역으로 옮겼다.**
 
+---
+
+### Using
+
+```
+#include "header1.h" //foo()
+#include "header2.h" //foo()
+
+using header1::foo; //헤더1의 foo만 사용
+```
+
+```
+#include "header1.h" //foo()
+#include "header2.h" //foo()
+
+using header1; //헤더1의 모든 함수 사용
+```
+
+---
+
+### 이름없는 이름 공간
+
+이 경우 해당 이름 공간에 정의된 것들은 해당 파일 안에서만 접근할 수 있게 됩니다. 이 경우 마치 `static` 키워드를 사용한 것과 같은 효과를 냅니다.
+
+```cpp
+#include <iostream>
+
+namespace 
+{
+// 이 함수는 이 파일 안에서만 사용할 수 있습니다.
+// static int A()
+    int A() {} 
+
+// static int x
+	int x = 0;
+}
+
+int main() 
+{
+  A();
+  x = 3;
+}
+```
+
+Q. static과 동일하다는 말은 함수가 시작하기 전에 값이 이미 할당되었다는 의미인가?
+
+---
+
+[namespace](https://modoocode.com/136)
+
+---
+
+### 실전 적용
+
+> calculator.h
+
+```cpp
+namespace calculator
+{    
+	int add(int x,int y)
+	{
+		return x+y;
+	}
+}
+```
+
+
+
+> calculator.cpp
+
+
+```cpp
+#include <iosteam>
+#include "calculator.h"
+
+int void main
+{
+	calculator::add(3,4);    
+}
+```
+
+or
+
+```cpp
+#include <iosteam>
+#include "calculator.h"
+//충돌위험이 잇어별로 권장되지 않는 방식
+using namespace calculator; 
+int void main
+{
+	add(3,4);    
+}
+```
+
+or
+
+```cpp
+#include <iosteam>
+#include "calculator.h"
+
+using calculator::add; 
+int void main
+{
+	add(3,4);    
+}
+```
+
