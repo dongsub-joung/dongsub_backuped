@@ -11,78 +11,73 @@ sidebar:
 
 # **Document history**
 
-  
-
-
-  
 
 ---
 
 ---
 
-  
+
+## C    
+
+**Self-study**    
+
+>  2017     
+
+​    
+
+**Lecture**    
+
+>  2019.1학기    
 
 
+---
 
-## C
+## Blog    
 
-**Self-study**
+**Starting Blog project**      
 
-> 2017 
+>  2020.01.04 ~ 01.06      
 
-  
+​    
 
-**Lecture**
 
-> 2019.1학기
+---
+
+## JavaScript      
+
+**Vanilla JavaScript**         
+
+>  2020.01.24 ~ 01.29         
+
+​         
+
+**Challenge**    
+
+>  2020.01.29 ~ 02.14    
 
   
 
 ---
 
-## Blog
+##  Build up Portfolio     
 
-**Starting Blog project**
-> 2020.01.04 ~ 01.06
-
-  
-
----
-
-## JavaScript
-
-**Vanilla JavaScript**
->2020.01.24 ~ 01.29
-
-   
-
-**Challenge**
-
-> 2020.01.29 ~ 02.14
+> 2020.02.15 ~ 02.16     
 
   
 
 ---
 
-##  Build up Portfolio
+##  My SQL     
 
-> 2020.02.15 ~ 02.16
-
-  
-
----
-
-##  My SQL
-
-> 2020.02.17 ~ 02.18
+> 2020.02.17 ~ 02.18     
 
   
 
 ---
 
-## JAVA
+## JAVA     
 
-> 2020.02.xx ~ 02.xx
+> 2020.02.xx ~ 02.xx     
 
   
 
@@ -90,35 +85,35 @@ sidebar:
 
 ## Sociology bookList maintenance tool
 
-> 2020.02.26 ~ 03.16,  
->  Java only,  
->  incompletion  
+> 2020.02.26 ~ 03.16  /  Java only, incompletion      
 
   
 
 ---
 
-## youtube clone
+## youtube clone     
 
-> 2020.06.15 ~ 
-
-  
-
----
-
-##  Engineer Information Processing
-
-> 2020.07.06 ~
+> 2020.06.15 ~     
 
   
 
 ---
 
-## SW Dev
+##  Engineer Information Processing    
 
-[C/C++](https://comento.kr/edu/schedule/1355)
+> 2020.07.06 ~    
 
-> 2020.07.12 ~
+  
+
+---
+
+## SW Dev, TDD    
+
+C++ theory    
+
+[C++ Unite test](https://comento.kr/edu/schedule/1355)     
+
+> 2020.07.12 ~     
 
 
 
