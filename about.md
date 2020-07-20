@@ -28,27 +28,16 @@ key: page-about
 
 <img align="right" class="image image--xl" src="\INTP.png"/>
 
-   
-
-#  
-
-# 
-
-  
-
-# 
-
-  
-
-# 
-
-  
-
-# 
-
-  
-
-# 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 
 **1. 사회학**  
 
@@ -61,33 +50,34 @@ key: page-about
 
 
 
-### 직군 - 기술
+### 직군
 **programming**
 
 
 
 ### 취미
 
-**1. 독서, 웨이트 트레이닝**  
++ **독서, 웨이트 트레이닝**  
 
-2. 音ゲー(최근에 다시 시작), 작혼
++ **音ゲー, 작혼**
    
-   
-   ​    
+     
+       
 ---
 
 ### 취미였던 것
 
-**1. PC 게임(접은지 1년 반)**  
-**2. アニメ(잘 안봄)**  
++ **PC 게임**
++ **アニメ** 
 
 
+  
+
+  
 
 
-
-
-
-## 사이트
+## 사이트     
+     
 [Web 계열 포트폴리오](https://dongsub-joung.github.io/web/result/intro.html)  
 
 [github profile](https://github.com/dongsub-joung)  
