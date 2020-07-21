@@ -13,7 +13,7 @@ sidebar:
 System Engineer : C, C++    
 SW Developer: C, C++, Java    
 Web Developer(front) : JavaScript      
-Server Developer(back) : MySQL, C++, node.JS, MongoDB, Git    
+DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git    
      
      
 
