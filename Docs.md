@@ -10,6 +10,12 @@ sidebar:
 
 
 # **Document history**
+System Engineer : C, C++    
+SW Developer: C, C++, Java    
+Web Developer(front) : JavaScript      
+Server Developer(back) : MySQL, C++, node.JS, MongoDB, Git    
+     
+     
 
 
 ---

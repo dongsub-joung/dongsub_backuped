@@ -94,23 +94,3 @@ docs-en:
         url:    /myDoc/EIPtest
       - title:  TDD
         url:    /myDoc/TDD
-
-
-bookList-en:
-  - title:      환경 구축
-    children:
-      - title:  JDBC
-        url:    /_posts/bookList_tool/2020-02-19-book1
-      - title:  Customization gitBlog
-        url:    /myDoc/gitblog
-      - title:  Customization sociology Blog
-        url:    /myDoc/sociologyBlog
-
-  - title:      Front-end
-    children:
-      - title:  Banilla JavaScript
-        url:    /myDoc/JS
-      - title:  Customization gitBlog
-        url:    /myDoc/gitblog
-      - title:  Customization sociology Blog
-        url:    /myDoc/sociologyBlog
