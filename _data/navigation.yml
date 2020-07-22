@@ -61,7 +61,7 @@ docs-en:
       - title:  C
         url:    ../Docs
       - title:  C++
-        url:    https://dongsub-joung.github.io/archive.html?tag=cpp
+        url:    ../Docs
       - title:  JAVA
         url:    ../Docs
 
