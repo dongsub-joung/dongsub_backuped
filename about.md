@@ -29,45 +29,33 @@ key: page-about
 <img class="image image--xl" src="\INTP.png"/>
 
 
-### social science
+## Social Science
 
 **1. Sociology**  
 
 **2. Economics, Philosophy, Psychology**  
 
-**2.5 Business administration, Japanese, Statistics**  
+**2.5 Business Administration, Japanese, Statistics**  
 
 
----   
-   
 
-### Job Group
-**Developer**    
-    
-        
-            
-### Hobby    
-    
-+ **reading, weight training**     
-    
-        
-   
-     
-       
+---
+
+## Hobby    
+
++ **Reading Something**
++ **Weight Training**
+
+
+
 ---
 
 
 ## Site    
-     
-+ [Github Profile](https://github.com/dongsub-joung)    
-    
 
-+ [Web Portfolio](https://dongsub-joung.github.io/web/result/intro.html)    
-    
-
-+ [Sociology Blog](https://intp-sociology.tistory.com/)  
-
-
++ [Github Profile](https://github.com/dongsub-joung)       
+  
++ [Sociology Blog](https://intp-sociology.tistory.com/)
 
 
 
