@@ -11,16 +11,16 @@ sidebar:
 
 
 # **Document history**
-   
----
-   
+
+
+
 System Engineer : C, C++    
 SW Developer: C, C++, Java    
 Web Developer(front) : JavaScript      
 DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git    
-   
+
 ---
-     
+
 
 ​        
 
@@ -34,13 +34,11 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 + #### **Lecture**    
   + ##### [2019.08 ~ 2019.12](http://www.yes24.com/Product/Goods/38946212)      
 
-​        
+​     
 
 ---
-        
-## Blog 
 
-​        
+## Blog 
 
 + #### **Starting Blog project**     
   + ##### [2020.01.04 ~ 01.14](https://dongsub-joung.github.io/archive.html?tag=Jekyll)      
@@ -49,7 +47,7 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 
 ---
-        
+
 ## JavaScript        
 
 + #### **Learn Vanilla JavaScript**        
@@ -60,8 +58,10 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 + #### **JS Challenge**    
   + ##### [2020.01.29 ~ 02.14](https://dongsub-joung.github.io/archive.html?tag=VanillaJS+Challenge)        
 
+​    
+
 ---
-        
+
 ##  Build up Portfolio     
 + ##### [2020.02.15 ~ 02.16](https://dongsub-joung.github.io/archive.html?tag=portfolio)        
 
@@ -69,7 +69,7 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 
 ---
-        
+
 ##  My SQL     
 + ##### [2020.02.17 ~ 02.18](https://dongsub-joung.github.io/archive.html?tag=SQL)        
 
@@ -96,10 +96,11 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 ## youtube clone     
 + ##### 2020.06.15 ~     
-   
+  
+
 ​        
 
-    
+
 ---
 
 ##  Engineer Information Processing            
@@ -108,11 +109,11 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 ​        
 
-   
+
 ---
 
 ## SW Dev, TDD            
-        
+
 + #### C++ theory     
 
 ​        
@@ -123,5 +124,5 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 ​        
 
-      
+
 ---
