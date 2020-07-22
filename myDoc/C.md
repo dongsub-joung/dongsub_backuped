@@ -7,7 +7,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### Hello, world!
+## Hello, world!
 
 
 

@@ -7,7 +7,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### Customizing sociology BLOG
+## Customizing sociology BLOG
 
   
 

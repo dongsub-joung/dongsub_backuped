@@ -9,7 +9,7 @@ aside:
 
 <img class="image image--xl" src=""/>
 
-### C/C++ TDD, 5주 SW개발 인턴 과정
+## C/C++ TDD:   5주 SW개발 인턴 과정
 + #### 2020.7.12 ~
 
 + #### [Dev Curriculum](https://comento.kr/edu/schedule/1355)

@@ -8,9 +8,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-
-
-### Momentum Clone
+## Momentum Clone
 
 + 2020.01.29 ~ 02.14
 
@@ -21,17 +19,17 @@ sidebar:
 
 + #### Entering Program
 
-  1. [nomad coders: JavaScript](https://nomadcoders.co/javascript-for-beginners)
+  1. [JavaScript by nomad coders](https://nomadcoders.co/javascript-for-beginners)
   2. Vanilla JavaScript Challenge
 
-  	+ [nomad coders: JS Challenge](https://nomadcoders.co/vanillajs-challenge)
-  	+ [Result repo:  Code Challenge](https://github.com/dongsub-joung/banilla)
+  	+ [JS Challenge by nomad coders](https://nomadcoders.co/vanillajs-challenge)
+  	+ [git repo:  Code Challenge Result](https://github.com/dongsub-joung/banillaJS_Challenge/tree/master/Code Challenge)
 
 
 + #### An end result
 
-  + [git repo:  Momentum Clone](https://github.com/dongsub-joung/Nomad)
-  + [URL:  Momentum Clone](https://dongsub-joung.github.io/web/result/2020.02.12/index.html)
+  + [git repo:  Banilla Javascript Result](https://github.com/dongsub-joung/banillaJS_Challenge)
+  + [URL:  Momentum Clone](https://dongsub-joung.github.io/Portfolio_WebSite/result/2020.02.12/index.html)
 
 
 

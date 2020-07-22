@@ -7,21 +7,19 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
+## Relational Database, My SQL theory
 
++ #### 2020.02.17 ~ 02.18
 
-### Relational Database, My SQL theory
++ #### [By 생활코딩](https://opentutorials.org/course/3160)
 
-+ 2020.02.17 ~ 02.18
+  + ##### [DATABASE 1](https://opentutorials.org/course/3162)    
 
-+ [생활코딩 URL](https://opentutorials.org/course/3160)
+  + ##### [SQL Join](https://opentutorials.org/course/3884)    
 
-  + #### [DATABASE 1](https://opentutorials.org/course/3162)    
+  + ##### [Relational Database Modeling](https://opentutorials.org/course/3883)    
 
-  + #### [SQL Join](https://opentutorials.org/course/3884)    
-
-  + #### [Relational Database Modeling](https://opentutorials.org/course/3883)    
-
-  + #### [DATABASE 2- MySQL](https://opentutorials.org/course/3161)    
+  + ##### [DATABASE 2- MySQL](https://opentutorials.org/course/3161)    
 
 
 

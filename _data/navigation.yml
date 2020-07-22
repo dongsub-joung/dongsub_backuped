@@ -82,6 +82,8 @@ docs-en:
         url:    /myDoc/momentum
       - title:  Portfolio WebSite
         url:    /myDoc/portfolio
+      - title:  My SQL
+        url:    /myDoc/MySQL
       - title:  Sociology bookList maintenance tool
         url:    /myDoc/bookListTool
       - title:  YouTube Clone

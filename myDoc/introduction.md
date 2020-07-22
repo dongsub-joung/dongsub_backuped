@@ -7,7 +7,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### Self-introduction Site
+## Self-introduction Site
 
 + ##### 2019.12.22 ~ 01.12
 + ##### [Result repo:  HTML, CSS Practice](https://github.com/dongsub-joung/HTML_CSS_Pratice)
