@@ -7,7 +7,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### Customization sociologyBLOG
+### [Customization sociologyBLOG](https://intp-sociology.tistory.com/)
 
   
 

@@ -1,6 +1,6 @@
 ---
 title: youtube clone 
-tag: nodejs, express
+tags: youtube, nodejs, express
 ---
 
 + package.json 

@@ -7,7 +7,7 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### 5주 인턴 체험: TDD
+### [5주 인턴 체험: TDD](https://comento.kr/edu/schedule/1355)
   
 
 > 2020.7.12

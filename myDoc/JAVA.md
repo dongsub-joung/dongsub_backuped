@@ -11,7 +11,7 @@ sidebar:
 
 
 
-1. #### JAVA theory by 생활코딩
+1. #### [JAVA](https://github.com/dongsub-joung/practice_algorism_JAVA)
 
 > 2020.02
 

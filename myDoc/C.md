@@ -11,29 +11,21 @@ sidebar:
 
 ### C
 
-#### Self-study
+#### [Self-study](http://www.yes24.com/Product/Goods/4333686)
 
 > 2017 
 
   
 
-#### Lecture
+#### [Lecture](https://github.com/dongsub-joung/practice_algorism_C)
 
 > 2019.1학기
 
-  
-
-**독학으로 기초 교재 1권, 강의로 기초 + 응용, 알고리즘**
-
-  
-
-  
-
 ---
 
-### SW Dev
+### SW Dev on TDD
 
-1. #### [C/C++](https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G261)
+1. #### [C/C++ TDD](https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G261)
 
 > 2020.07.12 ~
 

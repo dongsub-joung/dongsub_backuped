@@ -13,7 +13,7 @@ sidebar:
 
 
 
-1. #### Starting Blog project
+1. #### [Starting Blog project](https://github.com/dongsub-joung/dongsub-joung.github.io)
 
 > 2020.01.04 ~ 01.06
 
