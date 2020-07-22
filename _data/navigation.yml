@@ -56,36 +56,37 @@ header:
 
 
 docs-en:
-  - title:      Front-end
+  - title:      Front-End
     children:
       - title:  Banilla JavaScript
         url:    /myDoc/JS
-      - title:  Customization gitBlog
+      - title:  Customizing GitBlog
         url:    /myDoc/gitblog
-      - title:  Customization sociology Blog
+      - title:  Customizing sociology Blog
         url:    /myDoc/sociologyBlog
-
 
   - title:      Back-end
     children:
-      - title:  MySQL
+      - title:  My SQL
         url:    /myDoc/MySQL
-      - title:  node.JS
+      - title:  YouTube Clone
         url:    /myDoc/nodejs
-      - title:  mongoDB
-        url:    /myDoc/mongoDB
 
-
-  - title:      System engineer
+  - title:      Programming Language
     children:
       - title:  C
         url:    /myDoc/C
+      - title:  C++
+        url:    /myDoc/CPP
       - title:  JAVA
         url:    /myDoc/JAVA
 
-
   - title:      Project
     children:   
+      - title:  Self-introduction
+        url:    /myDoc/portfolio
+      - title:  Momentum Clone
+        url:    /myDoc/portfolio
       - title:  Web Portfolio
         url:    /myDoc/portfolio
       - title:  Sociology bookList maintenance tool

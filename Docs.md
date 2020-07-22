@@ -95,7 +95,7 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 ---
 
 ## youtube clone     
-+ ##### 2020.06.15 ~     
++ ##### [2020.06.15 ~](https://nomadcoders.co/wetube)     
   
 
 ​        
@@ -114,13 +114,13 @@ DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git
 
 ## SW Dev, TDD            
 
-+ #### C++ theory     
++ #### [C++ theory](https://dongsub-joung.github.io/archive.html?tag=cpp)     
 
 ​        
 
 
 + #### [C++ Unite test](https://comento.kr/edu/schedule/1355)
-  + ##### 2020.07.12 ~     
+  + ##### [2020.07.12 ~](https://dongsub-joung.github.io/archive.html?tag=TDD)     
 
 ​        
 

@@ -11,14 +11,14 @@ sidebar:
 
 
 
-1. #### [JAVA](https://github.com/dongsub-joung/practice_algorism_JAVA)
++ #### [JAVA](https://github.com/dongsub-joung/practice_algorism_JAVA)
 
-> 2020.02
+  + 2020.02
+  + 객체 지향의 개념(특히, 클래스, 오브젝트 중심)의 이해
 
-+ 객체 지향의 개념(특히, 클래스, 오브젝트 중심)의 이해
 
-  
 
-  
+
++ #### Sociology bookList maintenance tool
 
 ---

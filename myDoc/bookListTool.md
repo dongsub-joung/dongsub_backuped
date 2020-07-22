@@ -10,15 +10,19 @@ article__header: false
 
 ### **Sociology bookList maintenance tool**
 
-[GitHub URL](https://github.com/dongsub-joung/bookControl)   
++ #### [GitHub URL](https://github.com/dongsub-joung/bookControl) 
 
-#### 기간
++ #### 기간
 
->  2020.02.26 ~ 03.11
+  + 2020.02.26 ~ 03.11
 
-#### 사용 언어
++ #### 사용 언어
 
->  Java only 
+  + Java only 
+
+
+
+----
 
 #### 목적
 
@@ -32,16 +36,10 @@ article__header: false
 
 2. 도서 검색, 대출 기능 통합 플랫폼 구현
 
+
+
+---
+
 #### 미완성 `incompletion`
 
 >  결론적으로 개발기간이 길어져 개강함.
-
-
-
-
-
-  
-
-  
-
----
