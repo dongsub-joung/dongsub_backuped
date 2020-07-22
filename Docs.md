@@ -30,6 +30,14 @@ DB Engineer : C++, MySQL, node.JS**
 
 ---
 
+## Self-introduction Site
+
++ #### **Build up (2019.12.22 ~ 01.12)**
+
+
+
+---
+
 ## Blog project
 
 + #### **Start (2020.01.04 ~  01.14)**
@@ -81,7 +89,7 @@ DB Engineer : C++, MySQL, node.JS**
 
 ---
 
-## youTube clone    
+## YouTube clone    
 + #### **Build up project (2020.06.15 ~)**
   
 

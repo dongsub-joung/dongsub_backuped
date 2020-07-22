@@ -55,9 +55,10 @@ aside:
 
 ##### `ver	0.3`
 
-+ Doc, about 영문화
-+ Doc 가시화
-+ GitHub `readMe` 첨부
++ `Doc`, `about` 영문화
++ `Doc` 개편- 가시화
++ GitHub 레포지티 정리
++ GitHub `readMe` 추가 후 링크
 
 
 
