@@ -19,11 +19,15 @@ sidebar:
 
 + #### History
 
-**2020.02.01 Christmas D-Day
-2020.02.12 momentum clone
-2020.02.13 Random Number Game
-2020.02.13 Calculator ver0.1
-2020.02.14 Calculator ver0.2**
+**2020.02.01 Christmas D-Day**
+
+**2020.02.12 momentum clone**
+
+**2020.02.13 Random Number Game**
+
+**2020.02.13 Calculator ver0.1**
+
+**2020.02.14 Calculator ver0.2**
 
 
 ---
