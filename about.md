@@ -26,63 +26,46 @@ titles:
 key: page-about
 ---
 
-<img align="right" class="image image--xl" src="\INTP.png"/>
-
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-**1. 사회학**  
-
-**2. 경제학, 철학, 심리학**  
-
-**2.5 경영학, 일본어**  
-
-**3. 인문학, 인류학, 통계학**
+<img class="image image--xl" src="\INTP.png"/>
 
 
+### social science
+
+**1. Sociology**  
+
+**2. Economics, Philosophy, Psychology**  
+
+**2.5 Business administration, Japanese, Statistics**  
 
 
-### 직군
-**programming**
+---   
+   
 
-
-
-### 취미
-
-+ **독서, 웨이트 트레이닝**  
-
-+ **音ゲー, 작혼**
+### Job Group
+**Developer**    
+    
+        
+            
+### Hobby    
+    
++ **reading, weight training**     
+    
+        
    
      
        
 ---
 
-### 취미였던 것
 
-+ **PC 게임**
-+ **アニメ** 
-
-
-  
-
-  
-
-
-## 사이트     
+## Site    
      
-[Web 계열 포트폴리오](https://dongsub-joung.github.io/web/result/intro.html)  
++ [Github Profile](https://github.com/dongsub-joung)    
+    
 
-[github profile](https://github.com/dongsub-joung)  
++ [Web Portfolio](https://dongsub-joung.github.io/web/result/intro.html)    
+    
 
-[사회학 블로그](https://intp-sociology.tistory.com/)  
++ [Sociology Blog](https://intp-sociology.tistory.com/)  
 
 
 
