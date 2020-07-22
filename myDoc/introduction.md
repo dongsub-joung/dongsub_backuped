@@ -1,33 +1,21 @@
 ---
 layout: article
-titles: Build up Portfolio 
+titles: Self-introduction
 sidebar:
   nav: docs-en
 ---
 
 <img class="image image--xl" src=""/>
 
-### Portfolio Site
+### Self-introduction Site
 
-+ 2020.02.15 ~ 02.16
++ 2019.12.22 ~ 01.12
 
++ #### [Result:  git repo](https://github.com/dongsub-joung/HTML_CSS_Pratice)
 
-
----
-
-+ Theory
-  + #### [HTML](https://opentutorials.org/course/3084)    
-
-  + #### [CSS](https://opentutorials.org/course/3086)    
-
-+ #### [repo](https://github.com/dongsub-joung/HTML_CSS_Pratice)
++ [Result:  Self-introduction](https://dongsub-joung.github.io/HTML_CSS_Pratice/)
 
 
-
-
----
-
-#### 목표
 
 + **HTML, CSS, JS로 처음부터 끝까지 내가 모든 기능을 구현, 만들어보기**
 
@@ -36,3 +24,9 @@ sidebar:
 
 
 ---
+
+### Theory
+
++ #### [HTML](https://opentutorials.org/course/3084) 
+
++ [CSS](https://opentutorials.org/course/3086)

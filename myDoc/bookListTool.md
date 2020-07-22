@@ -10,7 +10,7 @@ article__header: false
 
 ### **Sociology bookList maintenance tool**
 
-+ #### [GitHub URL](https://github.com/dongsub-joung/bookControl) 
++ #### [GitHub repo](https://github.com/dongsub-joung/bookControl) 
 
 + #### 기간
 
@@ -43,3 +43,7 @@ article__header: false
 #### 미완성 `incompletion`
 
 >  결론적으로 개발기간이 길어져 개강함.
+
+
+
+---

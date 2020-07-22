@@ -9,11 +9,16 @@ sidebar:
 
 
 
-### [Engineer Information Processing](http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
+### Engineer Information Processing
 
 
+
++ [Test Infomation]((http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320))
 
 + 2019.06 ~ 
-
 + 2020.07.01 ~
+
+
+
+
 ---

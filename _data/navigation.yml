@@ -56,24 +56,26 @@ header:
 
 
 docs-en:
-  - title:      Front-End
-    children:
-      - title:  Customizing GitBlog
-        url:    /myDoc/gitblog
-      - title:  Customizing sociology Blog
-        url:    /myDoc/sociologyBlog
-
   - title:      Programming Language
     children:
       - title:  C
-        url:    /myDoc/C
+        url:    ../Docs
       - title:  C++
-        url:    /myDoc/CPP
+        url:    https://dongsub-joung.github.io/archive.html?tag=cpp
       - title:  JAVA
-        url:    /myDoc/JAVA
+        url:    ../Docs
+
+  - title:      Customizing Blog
+    children:
+      - title:  GitHub Blog
+        url:    /myDoc/gitblog
+      - title:  Sociology Blog
+        url:    /myDoc/sociologyBlog
 
   - title:      Project
-    children:   
+    children:  
+      - title:  Hello! C
+        url:    /myDoc/C 
       - title:  Self-introduction
         url:    /myDoc/introduction
       - title:  Momentum Clone
