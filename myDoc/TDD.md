@@ -12,7 +12,7 @@ aside:
 ## C/C++ TDD:   5주 SW개발 인턴 과정
 + #### 2020.7.12 ~
 
-+ #### [Dev Curriculum](https://comento.kr/edu/schedule/1355)
++ #### [Curriculum](https://comento.kr/edu/schedule/1355)
 
 + #### [History- TDD](https://dongsub-joung.github.io/archive.html?tag=TDD)
 
@@ -22,7 +22,7 @@ aside:
 
 ---
 
-#### 스케쥴
+### 스케쥴
 
 1주차: TDD 기초, C++ 개발환경 조성, 테스트 코드 과제
 
@@ -32,16 +32,12 @@ aside:
 
 ---
 
----
+## C++
 
-### C++
++ #### Theory (2020.07.12 ~ )
 
-+ #### Theory
-  
-  + ##### 2020.07.12
-  
   + ##### [History- C++](https://dongsub-joung.github.io/archive.html?tag=cpp)
-  
+
   + ##### [git repo:  C++ Practice](https://github.com/dongsub-joung/CPP_Practice)
 
 

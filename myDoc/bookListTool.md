@@ -13,13 +13,13 @@ sidebar:
 
 
 
++ #### 2020.02.26 ~ 03.16
+
++ #### Java only 
+
 + #### [GitHub repo:  Sociology_bookList](https://github.com/dongsub-joung/Sociology_bookList)
 
-  + ##### [History- Sociology bookList maintenance tool](https://dongsub-joung.github.io/archive.html?tag=%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC)
-
-  + ##### 2020.02.26 ~ 03.16
-
-  + ##### Java only 
++ #### [History- Sociology bookList maintenance tool](https://dongsub-joung.github.io/archive.html?tag=%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC)
 
 
 
@@ -28,6 +28,8 @@ sidebar:
 #### 목적
 
  겨울방학을 이용해서 무언가를 만들고 싶었는데 웹 말고 프로그램을 만들고 싶었다. 단순히 학과에서 엑셀을 이용해서 도서를 검색하고, 도서명부에 대출자를 기록하는 것이 불편해보였고, 나름대로 자동화될 것 같아서 시도해보았다.
+
+​    
 
 
 
@@ -38,6 +40,8 @@ sidebar:
   + 도서 명부의 개인정보를 숨기고 싶었고,
 
 + 도서 검색, 대출 기능 통합 플랫폼 구현
+
+​     
 
 
 
@@ -51,16 +55,14 @@ sidebar:
 
 ---
 
-### JAVA
+## JAVA
 
-+ #### Theory
-  + ##### 2020.02
-
-  + [by 생활 코딩](https://www.opentutorials.org/course/1223)
++ #### Theory (2020.02)
+  + ##### [by 생활 코딩](https://www.opentutorials.org/course/1223)
 
 
 
-+ #### Algorism
++ #### Algorism (2020.02)
 
   + ##### [git repo:  Java_Algorism](https://github.com/dongsub-joung/practice_algorism_JAVA)
 
