@@ -86,7 +86,7 @@ docs-en:
 
   - title:      Project
     children:   
-      - title:  Portfolio
+      - title:  Web Portfolio
         url:    /myDoc/portfolio
       - title:  Sociology bookList maintenance tool
         url:    /myDoc/bookListTool
