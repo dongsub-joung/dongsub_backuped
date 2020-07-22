@@ -1,6 +1,7 @@
 ---
 
 titles: Docs
+layout: article
 sidebar:
   nav: docs-en
 ---
@@ -10,13 +11,14 @@ sidebar:
 
 
 # **Document history**
+   
 ---
-
+   
 System Engineer : C, C++    
 SW Developer: C, C++, Java    
 Web Developer(front) : JavaScript      
 DB Engineer(back) : MySQL, C++, node.JS, MongoDB, Git    
- 
+   
 ---
      
 
