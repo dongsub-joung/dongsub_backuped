@@ -14,7 +14,7 @@ article__header: false
 
 + #### 기간
 
-  + 2020.02.26 ~ 03.11
+  + [2020.02.26 ~ 03.16](https://dongsub-joung.github.io/archive.html?tag=%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC)
 
 + #### 사용 언어
 

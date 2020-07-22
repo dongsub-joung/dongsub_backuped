@@ -58,19 +58,10 @@ header:
 docs-en:
   - title:      Front-End
     children:
-      - title:  Banilla JavaScript
-        url:    /myDoc/JS
       - title:  Customizing GitBlog
         url:    /myDoc/gitblog
       - title:  Customizing sociology Blog
         url:    /myDoc/sociologyBlog
-
-  - title:      Back-end
-    children:
-      - title:  My SQL
-        url:    /myDoc/MySQL
-      - title:  YouTube Clone
-        url:    /myDoc/nodejs
 
   - title:      Programming Language
     children:
@@ -84,13 +75,15 @@ docs-en:
   - title:      Project
     children:   
       - title:  Self-introduction
-        url:    /myDoc/portfolio
+        url:    /myDoc/introduction
       - title:  Momentum Clone
-        url:    /myDoc/portfolio
-      - title:  Web Portfolio
+        url:    /myDoc/momentum
+      - title:  Portfolio WebSite
         url:    /myDoc/portfolio
       - title:  Sociology bookList maintenance tool
         url:    /myDoc/bookListTool
+      - title:  YouTube Clone
+        url:    /myDoc/youtube
       - title:  Engineer Information Processing
         url:    /myDoc/EIPtest
       - title:  C++ TDD

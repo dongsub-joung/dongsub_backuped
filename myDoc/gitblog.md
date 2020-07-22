@@ -15,13 +15,16 @@ sidebar:
 
 + #### [Starting Blog project](https://github.com/dongsub-joung/dongsub-joung.github.io)
   + 2020.01.04 ~ 01.06
+  + [Theme repo: jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
 
 
 
 ---
 
-##### ver	0.1
+### Customizing
+
+##### `ver	0.1`
 
 + 배경색 반전
 + 댓글 (현재 삭제)
@@ -33,7 +36,7 @@ sidebar:
 
 
 
-##### ver0.2
+##### `ver0.2`
 
 + Doc 개선
   + `ReadMe`처럼 이력을 정리, 목록화
@@ -45,7 +48,7 @@ sidebar:
 
 
 
-##### ver	0.3
+##### `ver	0.3`
 
 + Doc, about 영문화
 + Doc 가시화

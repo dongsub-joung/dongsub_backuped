@@ -9,23 +9,19 @@ sidebar:
 
 
 
-### [Relational Database, My SQL theory by 생활코딩](https://opentutorials.org/course/3160)
+### Relational Database, My SQL theory
 
 + 2020.02.17 ~ 02.18
 
++ [생활코딩 URL](https://opentutorials.org/course/3160)
 
+  + #### [DATABASE 1](https://opentutorials.org/course/3162)    
 
----
+  + #### [SQL Join](https://opentutorials.org/course/3884)    
 
+  + #### [Relational Database Modeling](https://opentutorials.org/course/3883)    
 
-
-+ #### [DATABASE 1](https://opentutorials.org/course/3162)    
-
-+ #### [SQL Join](https://opentutorials.org/course/3884)    
-
-+ #### [Relational Database Modeling](https://opentutorials.org/course/3883)    
-
-+ #### [DATABASE 2- MySQL](https://opentutorials.org/course/3161)    
+  + #### [DATABASE 2- MySQL](https://opentutorials.org/course/3161)    
 
 
 

@@ -7,19 +7,24 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-
-
 ### C
 
-+ #### [Self-study](http://www.yes24.com/Product/Goods/4333686)
+
+
++ #### Self-study
   + 2017 
+  + [book](http://www.yes24.com/Product/Goods/4333686)
 
+
+
+---
+
++ #### Lecture
+
+  + 2019.1학기 C프로그래밍 강의
+  + [book](http://www.yes24.com/Product/Goods/38946212)
+  + [Result repo](https://github.com/dongsub-joung/practice_algorism_C)
   
-
-+ #### [Lecture](https://github.com/dongsub-joung/practice_algorism_C)
-
-  + 2019.1학기
-
   
 
 ---

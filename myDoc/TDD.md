@@ -7,10 +7,12 @@ sidebar:
 
 <img class="image image--xl" src=""/>
 
-### [C/C++ TDD, 5주 SW개발 인턴 과정](https://comento.kr/edu/schedule/1355)
+### C/C++ TDD, 5주 SW개발 인턴 과정
 + 2020.7.12 ~
 
-​    
++ [Schedule](https://comento.kr/edu/schedule/1355)
+
+
 
 1주차: TDD 기초, C++ 개발환경 조성, 테스트 코드 과제
 
