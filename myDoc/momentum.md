@@ -12,29 +12,26 @@ sidebar:
 
 ### Momentum Clone
 
++ 2020.01.29 ~ 02.14
+
 + #### original copy
 
   +  [Chrome Extension: Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?page=1&hl=ko&itemlang=he)
 
 
++ #### Entering Program
 
-+ #### Entering Project 
+  1. [nomad coders: JavaScript](https://nomadcoders.co/javascript-for-beginners)
+  2. Vanilla JavaScript Challenge
 
-  + 2020.01.29 ~ 02.14
-
-  + [nomad coders: JavaScript](https://nomadcoders.co/javascript-for-beginners)
-
-  + #### Vanilla JavaScript Challenge
-
-    + [nomad coders: Challenge](https://nomadcoders.co/vanillajs-challenge)
-    + [Code Challenge Result repo](https://github.com/dongsub-joung/banilla)
+  	+ [nomad coders: JS Challenge](https://nomadcoders.co/vanillajs-challenge)
+  	+ [Result repo:  Code Challenge](https://github.com/dongsub-joung/banilla)
 
 
++ #### An end result
 
-+ #### Result
-
-  + [Momentum Clone git repo](https://github.com/dongsub-joung/Nomad)
-  + [Momentum Clone Site](https://dongsub-joung.github.io/web/result/2020.02.12/index.html)
+  + [git repo:  Momentum Clone](https://github.com/dongsub-joung/Nomad)
+  + [URL:  Momentum Clone](https://dongsub-joung.github.io/web/result/2020.02.12/index.html)
 
 
 
@@ -43,7 +40,7 @@ sidebar:
 ### JavaScript theory
 
 + 2020.01.24 ~ 01.29
-+ [생활 코딩: JavaScript](https://opentutorials.org/course/3085)
++ [by 생활 코딩](https://opentutorials.org/course/3085)
 
 
 

@@ -11,9 +11,9 @@ sidebar:
 
 ### YouTube Clone  
 
-+ 2020.06.15 ~ 
++ #### 2020.06.15 ~ 
 
-+ [by nomad coders](https://nomadcoders.co/wetube)
++ #### [by nomad coders](https://nomadcoders.co/wetube)
 
 + #### [git repo: YouTube Clone](https://github.com/dongsub-joung/utubeClon)
 
@@ -21,17 +21,18 @@ sidebar:
 
 ---
 
-+ A learned thing.
-  + #### nodejs
+### A learned thing
 
-    + [Theory by 생활코딩](https://opentutorials.org/course/3332)
++ #### nodejs
 
-  + #### express   [//router](https://expressjs.com/ko/4x/api.html)
+  + ##### [Theory by 생활코딩](https://opentutorials.org/course/3332)
 
-    + babel
-    + pug
++ #### express   [//router](https://expressjs.com/ko/4x/api.html)
 
-  + #### MongoDB
+  + ##### babel
+  + ##### pug
+
++ #### MongoDB
 
 
 

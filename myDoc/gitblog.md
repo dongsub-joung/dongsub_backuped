@@ -3,6 +3,8 @@ layout: article
 titles: Customization GithBlog
 sidebar:
   nav: docs-en
+aside:
+  toc: true
 ---
 
 <img class="image image--xl" src=""/>
@@ -13,9 +15,12 @@ sidebar:
 
 
 
-+ #### [Starting Blog project](https://github.com/dongsub-joung/dongsub-joung.github.io)
-  + 2020.01.04 ~ 01.06
-  + [Theme repo: jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme)
++ #### Starting Blog project
+  
+  + ##### 2020.01.04 ~ 01.06
+  + ##### [Theme repo: jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme)
+  + ##### [Blog repo: My blog](https://github.com/dongsub-joung/dongsub-joung.github.io)
+  + ##### [History- Jekyll](https://dongsub-joung.github.io/archive.html?tag=Jekyll)
 
 
 
@@ -53,5 +58,7 @@ sidebar:
 + Doc, about 영문화
 + Doc 가시화
 + GitHub `readMe` 첨부
+
+
 
 ---

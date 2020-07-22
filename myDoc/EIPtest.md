@@ -13,10 +13,14 @@ sidebar:
 
 
 
-+ [Test Infomation]((http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320))
++ #### [Test Infomation](http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320)
 
-+ 2019.06 ~ 
-+ 2020.07.01 ~
++ #### [History- Engineer Information Processing]([https://dongsub-joung.github.io/archive.html?tag=%EC%A0%95%EC%B2%98%EA%B8%B0](https://dongsub-joung.github.io/archive.html?tag=정처기))
+
++ #### Progress
+
+  + ##### 2019.06 ~ 
+  + ##### 2020.07.01 ~
 
 
 
