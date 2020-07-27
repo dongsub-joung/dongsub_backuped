@@ -117,3 +117,19 @@ C++ 에서는 사용자 정의 연산자를 사용할 수 있습니다.
 
 ---
 
+## Block
+
+복합 명령문, Compound statement 한 명령문같이 보이는 명령문의 그룹. `{}`
+
+```cpp
+int add(int x, int y) 
+{ // 시작 블록 (start a block) 
+	return x + y; 
+} // 끝 블록 (end a block)
+```
+
+---
+
+## Local variables
+
+## 
