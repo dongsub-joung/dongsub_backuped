@@ -132,4 +132,29 @@ int add(int x, int y)
 
 ## Local variables
 
-## 
+---
+
+## Uniform initialization in C++11
+
+**유니폼 초기화(uniform initialization)**라는 새로운 형태의 초기화 메커니즘을 추가했다. (brace initialization이라고도 한다.)
+
+```cpp
+int value{5};
+```
+
+빈 `{}`로 변수를 초기화하면 기본 초기화(defulat initialization)가 된다. 
+
+기본 초기화는 변수를 0으로 초기화 한다.
+
+```cpp
+int value{}; // default initialization to 0
+```
+
+또 유니폼 초기화는 형 변환을 허용하지 않는다는 이점이 있다. 
+
+변수를 다른 자료형의 값으로 초기화하려고 하면 컴파일러에서 경고 또는 오류가 발생한다.
+
+---
+
+
+
