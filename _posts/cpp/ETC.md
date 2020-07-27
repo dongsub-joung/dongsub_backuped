@@ -156,5 +156,28 @@ int value{}; // default initialization to 0
 
 ---
 
+## Auto
 
+auto 키워드는 선언된 변수의 초기화 식을 사용하여 해당 형식을 추론하도록 컴파일러에 지시한다.
+
+즉, **auto 키워드를 사용하면 초깃값의 형식에 맟춰 선언하는 인스턴스(변수)의 형식이 '자동'으로 결정된다.** 이것을 **타입 추론(type inference)**이라고 한다.
+
+```cpp
+auto d = 5.0;   // 5.0 is a double literal, so d will be type double
+auto i = 1 + 2; // 1 + 2 evaluates to an integer, so i will be type int
+```
+
+변수를 함수의 반환 값으로 초기화 할 때도 사용 가능하다.
+
+> 이 기능은 생성 시 변수를 초기화할 때만 작동한다. 초기화 값을 사용하지 않고 생성된 변수는 이 기능을 사용할 수 없다.
+
+---
+
+## goto statement
+
+CPU가 코드의 다른 지점으로 점프하도록 하는 제어 흐름 명령문이다. 점프하는 지점은 문 라벨(statement label) `:` 을 사용하여 식별된다. 
+
+문 라벨(statement label)은 네 번째 종류의 범위, 즉 기능 범위를 이용한다. `goto` 문과 해당 문 라벨(statement label)은 같은 함수에 나타나야 한다.
+
+그러나 `goto` 문을 사용하여 작성된 거의 모든 코드는 루프, 예외 처리와 같은 C++의 다른 문법을 사용하여 더 명확하게 작성할 수 있으므로 C++에서 `goto` 문은 거의 사용하지 않는다.
 
