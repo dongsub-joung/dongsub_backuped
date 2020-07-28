@@ -1,5 +1,5 @@
 ---
-title: Range-based for statement
+title: Range-based for statement, void pointer
 tag: cpp
 ---
 
@@ -170,5 +170,69 @@ int main()
 ---
 
 [정리: 소년코딩](https://boycoding.tistory.com/210?category=1009770 )
+
+---
+
+## void pointer
+
+<u>제네릭 포인터(generic pointer)라고도 불리는 **void pointer**는 모든 데이터 자료형을 가리킬 수 있는 특별한 타입의 포인터다.</u>
+
+ void 포인터는 `void` 키워드를 사용하여 일반 포인터처럼 선언한다.
+
+```cpp
+int nValue;
+float fValue;
+
+struct Something
+{
+    int n;
+    float f;
+};
+
+Something sValue;
+
+void* ptr; // ptr is a void pointer
+
+ptr = &nValue; // valid
+ptr = &fValue; // valid
+ptr = &sValue; // valid
+```
+
+그러나 void 포인터는 어떤 데이터 자료형의 객체를 가리키는 알지 못하기 때문에 <u>직접 역참조할 수 없다.</u>
+
+그러므로 역참조를 하기 전에 먼저 void 포인터를 다른 포인터 유형으로 명시적 형 변환 해야 한다.
+
+```cpp
+int value = 5;
+void* voidPtr = &value;
+
+//cout << *voidPtr << endl; // illegal: cannot dereference a void pointer
+
+int* intPtr = static_cast<int*>(voidPtr); // however, if we cast our void pointer to an int pointer...
+
+cout << *intPtr << endl; // then we can dereference it like normal
+
+// 5
+```
+
+
+
+### Void pointer miscellany
+
+void 포인터를 null 값으로 설정할 수 있다.
+
+```cpp
+void* ptr = 0; // ptr is a void pointer that is currently a null pointer
+```
+
+일부 컴파일러에서는 동적으로 할당 된 메모리를 가리키는 void 포인터를 삭제할 수 있지만 정의되지 않은 동작이 발생할 수 있다.
+
+포인터 산술은 포인터가 어떤 크기의 객체를 가리키는지 알아야 하므로 포인터를 적절하게 증감할 수 없는 void 포인터에서는 포인터 연산을 수행할 수 없다.
+
+void 참조(reference) 같은 건 존재하지 않는다.
+
+---
+
+[정리: 소년코딩](https://boycoding.tistory.com/211?category=1009770)
 
 ---
