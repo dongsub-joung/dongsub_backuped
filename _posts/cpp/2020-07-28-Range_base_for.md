@@ -22,7 +22,7 @@ for (element_declaration : array)
 
 최상의 결과를 얻으려면 `element_declaration`이 <u>배열 요소와 같은 자료형이어야 한다.</u> 그렇지 않으면 형 변환이 발생한다.
 
-###### 
+
 
 ```cpp
 //범위 기반 for 문을 사용해서 fibonacci 배열의 모든 요소를 출력하는 예제
