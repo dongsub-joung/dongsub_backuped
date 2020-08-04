@@ -10,6 +10,16 @@ tag: cpp
 
 ---
 
+## 정규 표현식
+
+**정규 표현식**(正規表現式, [영어](https://ko.wikipedia.org/wiki/영어): regular expression, 간단히 regexp[[1\]](https://ko.wikipedia.org/wiki/정규_표현식#cite_note-1) 또는 regex, rational expression)[[2\]](https://ko.wikipedia.org/wiki/정규_표현식#cite_note-Mitkov2003-2)[[3\]](https://ko.wikipedia.org/wiki/정규_표현식#cite_note-Lawson2003-3) 또는 **정규식**(正規式)은 특정한 규칙을 가진 문자열의 집합을 표현하는 데 사용하는 [형식 언어](https://ko.wikipedia.org/wiki/형식_언어)이다. 정규 표현식은 많은 [텍스트 편집기](https://ko.wikipedia.org/wiki/텍스트_편집기)와 [프로그래밍 언어](https://ko.wikipedia.org/wiki/프로그래밍_언어)에서 문자열의 검색과 치환을 위해 지원하고 있으며, 특히 [펄](https://ko.wikipedia.org/wiki/펄)과 [Tcl](https://ko.wikipedia.org/wiki/Tcl)은 언어 자체에 강력한 정규 표현식을 구현하고 있다.
+
+컴퓨터 과학의 [정규 언어](https://ko.wikipedia.org/wiki/정규_언어)로부터 유래하였으나 구현체에 따라서 정규 언어보다 더 넓은 언어를 표현할 수 있는 경우도 있으며, 심지어 정규 표현식 자체의 문법도 여러 가지 존재하고 있다. 현재 많은 [프로그래밍 언어](https://ko.wikipedia.org/wiki/프로그래밍_언어), 텍스트 처리 프로그램, 고급 텍스트 편집기 등이 정규 표현식 기능을 제공한다. 일부는 [펄](https://ko.wikipedia.org/wiki/펄), [자바스크립트](https://ko.wikipedia.org/wiki/자바스크립트), [루비](https://ko.wikipedia.org/wiki/루비_(프로그래밍_언어)), [Tcl](https://ko.wikipedia.org/wiki/Tcl)처럼 문법에 내장되어 있는 반면 [닷넷 언어](https://ko.wikipedia.org/wiki/닷넷_프레임워크), [자바](https://ko.wikipedia.org/wiki/자바_(프로그래밍_언어)), [파이썬](https://ko.wikipedia.org/wiki/파이썬), [POSIX C](https://ko.wikipedia.org/wiki/C_POSIX_라이브러리), [C++](https://ko.wikipedia.org/wiki/C%2B%2B) ([C++11](https://ko.wikipedia.org/wiki/C%2B%2B11) 이후)에서는 [표준 라이브러리](https://ko.wikipedia.org/wiki/표준_라이브러리)를 통해 제공한다. 그 밖의 대부분의 언어들은 별도의 라이브러리를 통해 정규 표현식을 제공한다.
+
+정규 표현식은 [검색 엔진](https://ko.wikipedia.org/wiki/검색_엔진), [워드 프로세서](https://ko.wikipedia.org/wiki/워드_프로세서)와 [문서 편집기](https://ko.wikipedia.org/wiki/문서_편집기)의 찾아 바꾸기 대화상자, 그리고 [sed](https://ko.wikipedia.org/wiki/Sed), [AWK](https://ko.wikipedia.org/wiki/AWK)와 같은 문자 처리 유틸리티, [어휘 분석](https://ko.wikipedia.org/wiki/낱말_분석)에 사용된다.
+
+----
+
 ### Sum
 
 숫자만 가능 : [ 0 ~ 9 ] 주의 : 띄어쓰기 불가능
@@ -362,3 +372,7 @@ auto start = std::sregex_iterator(html.begin(), html.end(), re);
 [정리: 씹어먹는 C++: 정규 표현식](https://modoocode.com/303)
 
 ---
+
+https://hamait.tistory.com/342
+
+https://codingcoding.tistory.com/928
