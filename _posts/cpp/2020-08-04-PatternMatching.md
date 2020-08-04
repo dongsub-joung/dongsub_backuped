@@ -153,6 +153,208 @@ tag: cpp
 
 와 같은 경우에 매우 유용하게 사용됩니다.
 
+#### 정의
+
+> ex) 파일들의 이름을 표준화 시켰을 때
+>
+> db-\d*-log\.txt
+>
+> 여기서 `\d*` 는 임의의 개수의 숫자를 의미하는 것이고, `.` 앞에 `\` 을 붙여준 이유는 `.` 을 그냥 썼을 때 *임의의 문자*로 해석되기 때문입니다.
+
+```cpp
+std::regex re("db-\\d*-log\\.txt");
+```
+
+C++ 에서 정규 표현식을 사용하기 위해서는 먼저 위와 같이 정규 표현식 객체를 정의해야 합니다.
+
+참고로 정규 표현식 문법의 종류와, 정규 표현식을 처리하는 엔진 역시 여러가지 종류가 있는데, 위 생성자에 추가적인 인자로 전달할 수 있습니다. 
+
+#### 사용
+
+```cpp
+#include <iostream>
+#include <regex>
+#include <vector>
+ 
+using namespace std;
+
+int main() 
+{
+  // 주어진 파일 이름들.
+    vector<string> file_names = {"db-123-log.txt", "db-124-log.txt",
+                                         "not-db-log.txt", "db-12-log.txt",
+                                         "db-12-log.jpg"};
+    //regex의 re 생성 ("기준")
+    regex re("db-\\d*-log\\.txt");
+    
+    //file_name를 참조해서 배열 file_names에 대입
+  for (const auto &file_name : file_names) 
+  {
+    // std::boolalpha 는 bool 을 0 과 1 대신에 false, true 로 표현하게 해줍니다.
+    cout << file_name << ": " << boolalpha
+              << regex_match(file_name, re) << '\n';
+      //file_name을 re의 형식에 맞게
+      //regex_match 를 사용해서 전체 문자열이 주어진 정규 표현식 패턴을 만족하는지 알아 낼 수 있다
+  }
+}
+```
+
+---
+
+예를 들어서 `grep` 의 정규 표현식 문법을 사용하고 싶다면
+
+```cpp
+std::regex re("db-\\d*-log\\.txt", std::regex::grep);
+```
+
+* 만약에 인자를 지정하지 않았다면 디폴트로
+
+```cpp
+std::regex re("db-\\d*-log\\.txt",std::regex::ECMAScript);
+```
+
+어떤 문법을 사용할 지 이외에도 몇 가지 특성들을 더 추가할 수 있는데, 
+
+* 예를 들어서 `std::regex::icase` 를 전달한다면 <u>대소 문자를 구분하지 않게 됩니다.</u>
+  * 이 때 <u>특성을 추가하는 방법</u>은 `|` 로 연결하면 됩니다. 
+
+```cpp
+std::regex re("db-\\d*-log\\.txt", std::regex::grep | std::regex::icase);
+```
+
+자 그렇다면 만들어진 정규식 객체를 사용하는 부분을 살펴봅시다. 
+
+`std::regex_match` 는 첫 번째 인자로 전달된 문자열 (위 경우 `file_name`) 이 두 번째 인자로 전달된 정규 표현식 객체 (위 경우 `re`) 와 **완전히** 매칭이 된다면 `true` 를 리턴합니다. 
+
+완전히 매칭 된다는 말은 문자열 전체가 정규 표현식의 패턴에 부합해야 한다는 것이지요.
 
 
-### 
+
+### 부분 매칭 뽑아내기
+
+예를 들어서 사용자로 부터 전화번호를 받는 정규 표현식을 생각해봅시다. 전화번호는 간단히 생각해서 다음과 같은 규칙을 만족한다고 생각합니다.
+
+- (숫자)-(숫자)-(숫자) 꼴로 있어야 합니다.
+- 맨 앞자리는 반드시 3 자리이며 0 과 1 로만 이루어져 있어야 합니다.
+- 가운데 자리는 3 자리 혹은 4 자리 여야 합니다.
+- 마지막 자리는 4 자리 여야 합니다.
+
+```
+[01]{3}-\d{3,4}-\d{4}
+```
+
+맨 앞에 `[01]` 의 뜻은 0 혹은 1 이라는 의미이고, 뒤에 `{3}` 은 해당 종류의 문자가 3 번 나타날 수 있다는 의미입니다.
+
+---
+
++ 캡쳐 그룹 (capture group) 을 사용
+
+```cpp
+std::regex re("[01]{3}-(\\d{3,4})-\\d{4}");
+```
+
+위와 같이 `()` 로 원하는 부분을 감싸게 된다면 해당 부분에 매칭된 문자열을 얻을 수 있게 됩니다.
+
+> 그렇다면 매칭된 부분을 어떻게 얻을 수 있는지 살펴보도록 합시다.
+
+```cpp
+std::smatch match;
+```
+
++ `smatch`  
+  + 매칭된 문자열을 [std::string](https://modoocode.com/237) 의 형태로 돌려줍니다. 
+
+
+
+```cpp
+if (std::regex_match(number, match, re)) {
+```
+
+다음에 `regex_match` 에 매칭된 결과를 보관할 `match` 와 정규 표현식 `re` 를 모두 전달합니다. 
+
+만일 `number` 가 `re` 의 패턴에 부합하다면 `match` 에 매칭된 결과가 들어 있을 것입니다.
+
+```cpp
+for (size_t i = 0; i < match.size(); i++) {
+  std::cout << "Match : " << match[i].str() << std::endl;
+}
+```
+
+자 그럼 이제 `match` 에서 매칭된 문자열들을 `match[i].str()` 을 통해 접근할 수 있습니다. 
+
+참고로 우리의 `match` 가 `smatch` 이므로 `match[i].str()` 은 [std::string](https://modoocode.com/237) 이 됩니다. 
+
+반면에 `match` 가 `cmatch` 였다면 `match[i].str()` 는 `const char*` 이 되겠지요.
+
+
+
+### 원하는 패턴 검색하기
+
+앞서 `regex_match` 를 통해 문자열 전체가 패턴에 부합하는지 확인하는 작업을 하였습니다. 이번에는 전체 말고 패턴을 만족하는 문자열 **일부** 를 검색하는 작업을 수행해보도록 하겠습니다.
+
+우리가 하고 싶은 일은 HTML 문서에서 아래와 같은 형태의 태그만 읽어들이는 것입니다.
+
+```
+<div class="sk...">...</div>
+```
+
+그렇다면 해당 조건을 만족하는 정규 표현식은 아래와 같이 작성할 수 있습니다.
+
+```
+<div class="sk[\w -]*">\w*</div>
+```
+
+---
+
+```cpp
+while (std::regex_search(html, match, re)) {
+```
+
+문자열에서 원하는 패턴을 검색하는 일은 `regex_search` 를 사용하면 됩니다. `regex_match` 처럼, 첫 번째에 검색을 하고픈 문자열을, 두 번째에 일치된 패턴을 보관할 `match` 객체를, 마지막 인자로 실제 정규 표현식 객체를 전달하면 됩니다. 만일 `html` 에서 정규 표현식과 매칭이 되는 패턴이 존재한다면 `regex_search` 가 `true` 를 리턴하게 되지요.
+
+```cpp
+std::cout << match.str() << '\n';
+```
+
+그리고 매칭된 패턴은 위와 같이 `match.str()` 을 통해서 접근할 수 있습니다. 우리의 `match` 가 `smatch` 의 객체 이므로 만들어진 `match.str()` 은 [string](https://modoocode.com/237) 이 됩니다.
+
+
+
+#### 재실행, 업데이트
+
+문제는 만일 그냥 `std::regex_search(html, match, re)` 를 다시 실행하게 된다면 그냥 이전에 찾았던 패턴을 다시 뱉을 것입니다. 
+
+따라서 우리는 `html` 을 업데이트 해서 <u>검색된 패턴 바로 뒤 부터 다시 검색할 수 있도록 바꿔야합니다.</u>
+
+```cpp
+html = match.suffix();
+```
+
++ `match.suffix()` 를 하면 `std::sub_match` 객체를 리턴합니다. 
+  * `sub_match` 는 단순히 어떠한 문자열의 시작과 끝을 가리키는 반복자 두 개를 가지고 있다고 보시면 됩니다. 
+
+이 때 `suffix` 의 경우, <u>원 문자열에서 검색된 패턴 바로 뒤 부터, 이전 문자열의 끝 까지에 해당하는 `sub_match` 객체를 리턴합니다.</u>
+
+
+
+### std::regex_iterator
+
+//반복자
+
+```cpp
+auto start = std::sregex_iterator(html.begin(), html.end(), re);
+```
+
+`regex_iterator` 의 경우 위와 같이 생성자를 호출함으로써 생성할 수 있습니다. 
+
+첫 번째와 두 번째 인자로 검색을 수행할 문자열의 시작과 끝을 전달하고, 마지막 인자로 사용하고픈 정규 표현식 객체를 전달하면 됩니다.
+
+
+
+### 원하는 패턴 치환하기
+
+//정리 x
+
+[정리: 씹어먹는 C++: 정규 표현식](https://modoocode.com/303)
+
+---
