@@ -12,12 +12,43 @@ sidebar:
 
 # **Document history**
 
+class SW Developer
+{
+  void C/C++(algorithm);
+  void Java(algorithm);
+};
 
+class Web Developer
+{
+  //static Python = true;
 
-**System Engineer : C, C++, Java  
-SW Developer : C, C++, Java    
-Web Developer : JavaScript      
-DB Engineer : C++, MySQL, node.JS**
+  struct FrontEnd
+  {
+    JavaScript();
+  }FrontEnd;
+
+  struct BackEnd
+  {
+    JavaScript(Baniila);
+    Node.js(Express, pug);
+    //Django();
+  }BackEnd;
+}
+
+class DataBase
+{
+  struct Relation
+  {
+    My SQL();
+    //SQLite();
+  }Relation;
+
+  struct NonRelation
+  {
+    //MongoDB();
+  }NonRelation;
+}
+
 
 ----
 
