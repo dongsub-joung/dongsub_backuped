@@ -6,16 +6,23 @@ sidebar:
   nav: docs-en
 ---
 
-
 <img class="image image--xl" src=""/>
 
 
 # **Document history**
 
+```cpp
 class SW Developer
 {
-  void C/C++(algorithm);
-  void Java(algorithm);
+    struct Dev
+    {
+        C/C++;
+        Java
+    };
+    
+    Dev codingTest;
+	codingTest.C/C++;
+	codingTest.Java;
 };
 
 class Web Developer
@@ -25,14 +32,14 @@ class Web Developer
   struct FrontEnd
   {
     JavaScript();
-  }FrontEnd;
+  };
 
   struct BackEnd
   {
     JavaScript(Baniila);
     Node.js(Express, pug);
     //Django();
-  }BackEnd;
+  };
 }
 
 class DataBase
@@ -41,14 +48,14 @@ class DataBase
   {
     My SQL();
     //SQLite();
-  }Relation;
+  };
 
   struct NonRelation
   {
     //MongoDB();
-  }NonRelation;
+  };
 }
-
+```
 
 ----
 
