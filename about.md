@@ -38,7 +38,8 @@ key: page-about
 **2. Economics, Philosophy, Psychology**  
   - **Behavioral Economics**
   - **[Marx Karl] [Thomas Piketty] [장하준]**
-  - **[Nietzsche] [Wittgenstein]**
+  - **[Nietzsche] [Lacan] [Althusser]**
+  - **[Max Weber] [Georg Simmel]**
 
 **2.5 Business Administration, Statistics**  
   - **Financial Statements**
