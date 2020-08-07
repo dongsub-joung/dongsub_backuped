@@ -32,12 +32,19 @@ key: page-about
 ## Social Science
 
 **1. Sociology**  
+  - **Critical Realism, Sociological Imagination**
+  - **Cultural Sociology, Environmental Sociology**
 
 **2. Economics, Philosophy, Psychology**  
+  - **Behavioral Economics**
+  - **[Marx Karl] [Thomas Piketty] [장하준]**
+  - **[Nietzsche] [Wittgenstein]**
 
-**2.5 Business Administration, Japanese, Statistics**  
+**2.5 Business Administration, Statistics**  
+  - **Financial Statements**
+  - **SPSS, Social statistics**
 
-
+**e.t.c Japanese**
 
 ---
 
@@ -45,7 +52,7 @@ key: page-about
 
 + **Reading Something**
 + **Weight Training**
-
++ **Thinking**
 
 
 ---
