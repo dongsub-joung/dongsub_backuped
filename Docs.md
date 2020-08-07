@@ -14,47 +14,46 @@ sidebar:
 ```cpp
 class SW Developer
 {
-    struct Dev
-    {
-        C/C++;
-        Java
-    };
-    
-    Dev codingTest;
-	codingTest.C/C++;
+	struct Dev
+	{
+		C && C++;
+		Java
+	};
+
+	Dev codingTest;
+	codingTest.C && C++;
 	codingTest.Java;
 };
 
 class Web Developer
 {
-  //static Python = true;
+	g_Python;
 
-  struct FrontEnd
-  {
-    JavaScript();
-  };
+	struct FrontEnd
+	{
+		JavaScript(Vanilla);
+	};
 
-  struct BackEnd
-  {
-    JavaScript(Baniila);
-    Node.js(Express, pug);
-    //Django();
-  };
-}
+	struct BackEnd
+	{
+		Node.js(Express, pug);
+		//Django();
+	};
+};
 
 class DataBase
 {
-  struct Relation
-  {
-    My SQL();
-    //SQLite();
-  };
+	struct Relation
+	{
+		My SQL();
+		//SQLite();
+	};
 
-  struct NonRelation
-  {
-    //MongoDB();
-  };
-}
+	struct NonRelation
+	{
+		//MongoDB();
+	};
+};
 ```
 
 ----
