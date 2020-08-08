@@ -9,8 +9,8 @@ aside:
 
 <img class="image image--xl" src=""/>
 
-## C/C++ TDD:   5주 SW개발 인턴 과정
-+ #### 2020.7.12 ~
+## C/C++ TDD:   5주 SW개발
++ #### 2020.7.12 ~ 2020.08.09 + 1WEEk
 
 + #### [Curriculum](https://comento.kr/edu/schedule/1355)
 
@@ -28,6 +28,11 @@ aside:
 
 2주차: 상세 명세서, 계획서 작성 및 구조 설계, 클래스 다이어그램 작성
 
+3주차: 간트차트, doxygen, 구현
+
+4주차: 피드백 및 구현
+
+5주차: 피드백 및 구현
   
 
 ---

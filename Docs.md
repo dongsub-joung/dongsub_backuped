@@ -16,18 +16,18 @@ class SW Developer
 {
 	struct Dev
 	{
-		C && C++;
+		C/C++;
 		Java
 	};
 
 	Dev codingTest;
-	codingTest.C && C++;
+	codingTest.C/C++;
 	codingTest.Java;
 };
 
 class Web Developer
 {
-	g_Python;
+	//g_Python;
 
 	struct FrontEnd
 	{
@@ -45,7 +45,7 @@ class DataBase
 {
 	struct Relation
 	{
-		My SQL();
+		MySQL();
 		//SQLite();
 	};
 
@@ -146,6 +146,15 @@ class DataBase
 ## SW Development on TDD            
 
 + #### **Study C++ (2020.07.12 ~ )**
+
+
+
+
+---
+
+## WEB Portfolio on Python, Django, SQLite3            
+
++ #### **Study Python (2020.08.09 ~ )**
 
 
 

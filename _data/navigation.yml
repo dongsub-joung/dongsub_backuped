@@ -92,3 +92,5 @@ docs-en:
         url:    /myDoc/EIPtest
       - title:  C++ TDD
         url:    /myDoc/TDD
+      - title:  Build up Web (Python+Django+SQLite3)
+        url:    /myDoc/Web_python
