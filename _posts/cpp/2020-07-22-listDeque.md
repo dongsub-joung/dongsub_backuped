@@ -1,5 +1,5 @@
 ---
-title: std::vector, list, deque
+title: vector, list, deque
 tag: cpp
 ---
 

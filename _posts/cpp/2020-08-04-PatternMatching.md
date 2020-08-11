@@ -1,5 +1,5 @@
 ---
-titile: Pattern Matching, <regex>
+titile: Pattern Matching, regex
 tag: cpp
 ---
 
