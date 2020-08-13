@@ -14,11 +14,11 @@ sidebar:
 ```cpp
 class SW_Developer
 {
-	struct Language
+	struct 
 	{
 		C/C++;
 		Java;
-	};
+	}Language;
 
 	SW_Developer(Language.C);
 	void Dev_BookControl(Language.Java);
@@ -29,16 +29,16 @@ class SW_Developer
 class Web_Developer
 {
 	g_Python;
-	struct Front_End
+	struct 
 	{
 		JavaScript;
 		//Angular
-	};
-	struct Back_End
+	}Front_End;
+	struct 
 	{
 		Node_JS;
 		//Django;
-	};
+	}Back_End;
 
 	Web_Developer(HTML,CSS);
 	void Momentom(Front_End.JavaScript);
@@ -47,15 +47,15 @@ class Web_Developer
 
 class DataBase
 {
-	struct Relation
+	struct 
 	{
 		MySQL;
 		//SQLite;
-	};
-	struct NonRelation
+	}Relation;
+	struct 
 	{
 		//MongoDB;
-	};
+	}NonRelation;
 
 	DataBase(Relation.MySQL);
 };
