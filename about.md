@@ -65,6 +65,6 @@ key: page-about
   
 + [Sociology Blog](https://intp-sociology.tistory.com/)
 
-
++ [Steam Profile](https://steamcommunity.com/profiles/76561198068103153/)
 
 ---
