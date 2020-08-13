@@ -64,3 +64,7 @@ tag: TDD
 [참고 1](http://www.secmem.org/blog/2019/07/21/test-coverage/)
 
 ----
+
+ HLD(High Level Design)/DLD(Detailed Level Design)
+
+SEQUENCE DIAGRAM
