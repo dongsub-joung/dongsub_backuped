@@ -12,51 +12,52 @@ sidebar:
 # **Document history**
 
 ```cpp
-class SW Developer
+class SW_Developer
 {
-	struct Dev
+	struct Language
 	{
 		C/C++;
-		Java
+		Java;
 	};
-	
-	Dev dev = Dev();
 
-	void CodingTest(dev.C/C++);
-	void CodingTest(dev.Java);
-
-	void BuildUp_SW(dev.Java);
+	SW_Developer(Language.C);
+	void Dev_BookControl(Language.Java);
+	void TDD(Language.C++)
 };
 
-class Web Developer
+
+class Web_Developer
 {
 	g_Python;
-
-	struct FrontEnd
+	struct Front_End
 	{
-		JavaScript(Vanilla);
+		JavaScript;
 		//Angular
 	};
-
-	struct BackEnd
+	struct Back_End
 	{
-		Node.js(Express, pug);
-		//Django();
+		Node_JS;
+		//Django;
 	};
+
+	Web_Developer(HTML,CSS);
+	void Momentom(Front_End.JavaScript);
 };
+
 
 class DataBase
 {
 	struct Relation
 	{
-		MySQL();
-		//SQLite();
+		MySQL;
+		//SQLite;
 	};
-
 	struct NonRelation
 	{
-		//MongoDB();
+		//MongoDB;
 	};
+
+	DataBase(Relation.MySQL);
 };
 ```
 
