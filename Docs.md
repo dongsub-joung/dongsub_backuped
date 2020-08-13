@@ -19,19 +19,23 @@ class SW Developer
 		C/C++;
 		Java
 	};
+	
+	Dev dev = Dev();
 
-	Dev codingTest;
-	codingTest.C/C++;
-	codingTest.Java;
+	void CodingTest(dev.C/C++);
+	void CodingTest(dev.Java);
+
+	void BuildUp_SW(dev.Java);
 };
 
 class Web Developer
 {
-	//g_Python;
+	g_Python;
 
 	struct FrontEnd
 	{
 		JavaScript(Vanilla);
+		//Angular
 	};
 
 	struct BackEnd
@@ -127,7 +131,7 @@ class DataBase
 ---
 
 ## YouTube clone    
-+ #### **Build up project (2020.06.15 ~)**
++ #### **Build up project (2020.06.15 ~ )**
   
 
 
