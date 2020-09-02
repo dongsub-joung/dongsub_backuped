@@ -29,15 +29,17 @@ class SW_Developer
 class Web_Developer
 {
 	g_Python;
+
 	struct 
 	{
 		JavaScript;
 		//Angular
 	}Front_End;
+
 	struct 
 	{
 		Node_JS;
-		//Django;
+		Django;
 	}Back_End;
 
 	Web_Developer(HTML,CSS);
@@ -50,8 +52,9 @@ class DataBase
 	struct 
 	{
 		MySQL;
-		//SQLite;
+		SQLite;
 	}Relation;
+
 	struct 
 	{
 		//MongoDB;
