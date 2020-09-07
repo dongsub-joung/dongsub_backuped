@@ -58,7 +58,7 @@ header:
 docs-en:
   - title:      Programming Language
     children:
-      - title:  C/C++
+      - title:  C,C++
         url:    ../Docs
       - title:  JAVA
         url:    ../Docs
@@ -74,23 +74,23 @@ docs-en:
 
   - title:      Project
     children:  
-      - title:  Hello world!                              (C)
+      - title:  Hello world! (C)
         url:    /myDoc/C 
-      - title:  Self-introduction                 (HTML, CSS)
+      - title:  Self-introduction
         url:    /myDoc/introduction
-      - title:  Momentum Clone                           (JS)
+      - title:  Momentum Clone
         url:    /myDoc/momentum
-      - title:  Portfolio WebSite             (HTML, CSS, JS)
+      - title:  Portfolio WebSite
         url:    /myDoc/portfolio
       - title:  MySQL
         url:    /myDoc/MySQL
-      - title:  Sociology bookList maintenance tool   (Java)
+      - title:  Sociology bookList maintenance tool
         url:    /myDoc/bookListTool
-      - title:  YouTube Clone             (Node.JS, MongoDB)
+      - title:  YouTube Clone
         url:    /myDoc/youtube
       - title:  Engineer Information Processing
         url:    /myDoc/EIPtest
-      - title:  TDD                                    (C++)
+      - title:  TDD
         url:    /myDoc/TDD
-      - title:  Build up Radio Web (Vue.JS, Django, MongoDB)
+      - title:  Build up Radio Web
         url:    /myDoc/Web_python
