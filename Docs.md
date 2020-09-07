@@ -33,17 +33,19 @@ class Web_Developer
 	struct 
 	{
 		JavaScript;
+		Node_JS;
+		Vue.JS;
 		//Angular
 	}Front_End;
 
 	struct 
 	{
-		Node_JS;
 		Django;
 	}Back_End;
 
 	Web_Developer(HTML,CSS);
 	void Momentom(Front_End.JavaScript);
+	void Radio_Introduce_WebSite(VueJS, Back_End.Django, MongoDB)
 };
 
 
@@ -52,12 +54,11 @@ class DataBase
 	struct 
 	{
 		MySQL;
-		SQLite;
 	}Relation;
 
 	struct 
 	{
-		//MongoDB;
+		MongoDB;
 	}NonRelation;
 
 	DataBase(Relation.MySQL);
@@ -160,7 +161,7 @@ class DataBase
 
 ---
 
-## WEB Portfolio on Python, Django, SQLite3            
+## WEB Portfolio on Python, Django, 
 
 + #### **Study Python (2020.08.09 ~ )**
 
