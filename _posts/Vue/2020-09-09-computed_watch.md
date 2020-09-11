@@ -9,13 +9,7 @@ tag: VueJS
 
 ## computed 
 
-간단한 연산일 때만 이용하는 것이 좋습니다. 
-
-```html
-<div id="example">
-	{{ message.split('').reverse().join('') }}
-</div>
-```
+간단한 연산일 때만 이용하는 것이 좋습니다.  `{message.split('').reverse().join('')}`
 
 복잡함
 
