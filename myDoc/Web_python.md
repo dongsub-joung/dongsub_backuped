@@ -14,9 +14,7 @@ aside:
 
 + #### [Curriculum](https://comento.kr/edu/learn/ITSW/%EC%9B%B9%EA%B0%9C%EB%B0%9C-G504)
 
-+ #### [History: SW 포트폴리오]()
-
-+ #### [Result repo]()
++ #### [Result repo](https://github.com/dongsub-joung/Radio_Web)
 
 
 
@@ -24,32 +22,24 @@ aside:
 
 ### 스케쥴
 
-1주차: 
+1주차: 파이썬 학습
 
-2주차: 
+2주차: Django 학습
 
-3주차: 
+3주차: 카카오 oven으로 스케치
 
-4주차: 
+4주차: 프론트, 백앤드, DB 코딩
 
-5주차: 
+5주차: 프론트, 백앤드, DB 코딩
   
 
 ---
 
-## Python
+## Python, Django
 
 + #### Theory (2020.08.09 ~ )
 
   + ##### [History: Python](https://dongsub-joung.github.io/archive.html?tag=python)
 
-  + ##### [git repo: Python Practice]()
+  + ##### [git repo: Python Practice](https://github.com/dongsub-joung/python_basic)
 
-
-## Django 
-
-
-## SQLite3
-
-
----

@@ -45,7 +45,7 @@ class Web_Developer
 
 	Web_Developer(HTML,CSS);
 	void Momentom(Front_End.JavaScript);
-	void Radio_Introduce_WebSite(VueJS, Back_End.Django, MongoDB)
+	void Radio_Introduce_WebSite(VueJS, Back_End.Django, MongoDB) // ~ing
 };
 
 
@@ -58,7 +58,7 @@ class DataBase
 
 	struct 
 	{
-		MongoDB;
+		MongoDB; // ~ing
 	}NonRelation;
 
 	DataBase(Relation.MySQL);
@@ -111,7 +111,7 @@ class DataBase
 ---
 
 ##  My SQL     
-+ #### **Learn My SQL (2020.02.17 ~ 02.18)**
++ #### **Learn My SQL (2020.02.17)**
 
 
 
@@ -120,7 +120,7 @@ class DataBase
 
 ## JAVA     
 
-+ #### **Learn Java (2020.02.18 ~ 02.25)**
++ #### **Learn Java (2020.02.18)**
 
 
 
@@ -136,7 +136,7 @@ class DataBase
 ---
 
 ## YouTube clone    
-+ #### **Build up project (2020.06.15 ~ )**
++ #### **Build up project (2020.06.15 ~ 미정)**
   
 
 
@@ -145,27 +145,34 @@ class DataBase
 ---
 
 ##  Engineer Information Processing            
-+ #### **Study  (2019.06 ~ , 2020.07.01 ~ )**
++ #### **Study  (2019.06 ~ , 2020.07.01 ~ing)**
 
 
 
 
 ---
 
-## SW Development on TDD            
+## SW Development TDD on C++            
 
-+ #### **Study C++ (2020.07.12 ~ )**
++ #### **Study C++ (2020.07.12)**
 
 
 
 
 ---
 
-## WEB Portfolio on Python, Django, 
+## WEB Portfolio on Python, Django, MongoDB
 
-+ #### **Study Python (2020.08.09 ~ )**
++ #### **Study Python  (2020.08.09)**
++ #### **Study Djaong  (2020.08.18 ~ ing)**
++ #### **Study MongoDB (~ ing)**
 
 
+---
+
+## 논문 쓰기
+
++ #### **논문 발표회 (2020.11.25)**
 
 
 ---
