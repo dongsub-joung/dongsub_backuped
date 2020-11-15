@@ -166,12 +166,3 @@ class DataBase
 + #### **Study Python  (2020.08.09)**
 + #### **Study Djaong  (2020.08.18 ~ ing)**
 + #### **Study MongoDB (~ ing)**
-
-
----
-
-## 논문 쓰기
-
-
-
----
