@@ -8,6 +8,7 @@ ko-KR   : *KO
 
 # @end locale config
 ## key: page-about
+---
 
 ## Social Science
 ###  Transfer Computer Science
