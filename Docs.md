@@ -5,7 +5,7 @@ sidebar: true
 nav: docs-en
 ---
 
-[img](#)
+<img class="image image--xl" src=""/>
 
 # **Document history**
 
@@ -48,94 +48,77 @@ struct {
 
 
 ---
-## C
+## [C](myDoc\C.md)  
 
-* #### **Self-study (2017)**
-
-* #### **Lecture(2019.2학기)**
-
+**Self-study (2017)**  
+**Lecture (2019.2학기)**  
 
 ---
-## Self-introduction Site
+## [Self-introduction Site](myDoc\introduction.md)  
 
-* #### **Build up (2019.12.22 ~ 01.12)**
-
-
----
-## Blog project
-
-* #### **Start (2020.01.04 ~ 01.14)**
-
+**Build up (2019.12.22 ~ 01.12)**  
 
 ---
-## JavaScript
+## [Blog project](myDoc\gitblog.md)  
 
-* #### **Learn Vanilla JavaScript (2020.01.24 ~ 01.29)**
-
-* #### **Vanilla JavaScript Challenge (2020.01.29 ~ 01.14)**
-
+**Start (2020.01.04 ~ 01.14)**  
 
 ---
-## Portfolio
+## [JavaScript](myDoc\momentum.md)  
 
-* #### **Build up (2020.02.15 ~ 02.16)**
-
-
----
-## My SQL
-
-* #### **Learn My SQL (2020.02.17)**
-
+**Learn Vanilla JavaScript (2020.01.24 ~ 01.29)**  
+**Vanilla JavaScript Challenge (2020.01.29 ~ 01.14)**  
 
 ---
-## JAVA
+## [Portfolio](myDoc\portfolio.md)  
 
-* #### **Learn Java (2020.02.18)**
-
-
----
-## Sociology bookList maintenance tool
-
-* #### **Build up project (2020.02.26 ~ 03.16)**
-
+* #### **Build up (2020.02.15 ~ 02.16)**  
 
 ---
-## YouTube clone
+## [My SQL](myDoc\MySQL.md)  
 
-* #### **Build up project (2020.06.15 ~ 미정)**
-
-
----
-## Engineer Information Processing
-
-* #### **Study (2019.06 ~ , 2020.07.01 ~ing)**
-
+**Learn My SQL (2020.02.17)**  
 
 ---
-## SW Development TDD on C++
+## JAVA  
 
-* #### **Study C++ (2020.07.12)**
-
+* #### **Learn Java (2020.02.18)**  
 
 ---
-## WEB Portfolio on Python, Django, MongoDB
+## [Sociology bookList maintenance tool](myDoc\bookListTool.md)  
 
-* #### **Study Python (2020.08.09)**
+**Build up project (2020.02.26 ~ 03.16)**  
 
-* #### **Study Djaong (2020.08.18 ~ 미정)**
+---
+## [YouTube clone](myDoc\youtube.md)  
 
-* #### **Study MongoDB (~ 미정)**
+**Build up project (2020.06.15 ~ 미정)**
 
+---
+## [Engineer Information Processing](myDoc\EIPtest.md)  
+
+**Study (2019.06 ~ , 2020.07.01 ~ing)**  
+
+---
+## [SW Development TDD on C++](myDoc\TDD.md)  
+
+**Study C++ (2020.07.12)**  
+
+---
+## [WEB Portfolio on Python, Django, MongoDB](myDoc\Web_python.md)  
+
+**Study Python (2020.08.09)**  
+**Study Djaong (2020.08.18 ~ 미정)**  
+**Study MongoDB (~ 미정)**  
 
 ---
 ## ...
 
-* #### **React Native**, **Kotlin**, **LowCode**, **Linux**
+**React Native**, **Kotlin**, **LowCode**, **Linux**
 
 ---
 ## JAVA :RE
 
 - **Learn Java (2021.01 ~ )**  
 - **For Java & Spring Developer (2021.02.15 ~ )**
-
 

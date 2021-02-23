@@ -10,6 +10,8 @@ ko-KR   : *KO
 ## key: page-about
 ---
 
+<img class="image image--xl" src=""/>
+
 ## Social Science
 ###  Transfer Computer Science
 
