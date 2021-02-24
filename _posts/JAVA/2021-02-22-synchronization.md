@@ -1,7 +1,7 @@
-- - - -
+---
 Title: synchronization
 tag: java synchronization 
-- - - -
+---
 
 
 ## 필요
@@ -48,4 +48,6 @@ public void exampleMethod() {
 }
 ```
 
-출처: https://coding-start.tistory.com/68 [코딩스타트]
+---
+## 참고 문헌
+**[코딩스타트](https://coding-start.tistory.com/68)**

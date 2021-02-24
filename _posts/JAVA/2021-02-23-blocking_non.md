@@ -1,7 +1,7 @@
-- - - -
+---
 Title: Blocking, Non-blocking Algorithms. 
 Tag: Multi_Thread
-- - - -
+---
 
 ## Blocking
 - 블로킹 동시성 알고리즘
@@ -111,4 +111,5 @@ public class SingleWriterCounter {
 
 - - - -
 ## 원문
-- https://parkcheolu.tistory.com/33?category=654619
+
+**[parkcheolu tistory](https://parkcheolu.tistory.com/33?category=654619)
