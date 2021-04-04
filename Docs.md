@@ -1,8 +1,6 @@
 ---
 titles: Docs 
-layout: article 
-sidebar: true
-nav: docs-en
+layout: article
 ---
 
 <img class="image image--xl" src=""/>
