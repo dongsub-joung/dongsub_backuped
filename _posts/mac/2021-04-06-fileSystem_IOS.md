@@ -149,6 +149,7 @@ For information about how to get references to the preceding directories from yo
 IOS 기기에서 자동으로 동기화 및 백업 프로세스가 진행되기 때문에 상위 설명한 폴더에 적절한 데이터를 사용해야 함. 대용량 파일의 경우, 시스템 이용에 불편을 가져올 수 있음.
 
 > 자세한 사항은 공홈 참조  
+
 * Put user data in Documents/. 
 * Put app-created support files in the Library_Application support_ directory.
 * Remember that files in Documents/ and Application Support/ are backed up by default.
@@ -156,18 +157,23 @@ IOS 기기에서 자동으로 동기화 및 백업 프로세스가 진행되기 
 * Put data cache files in the Library_Caches_ directory. 
 
 - - - -
+
 ## IOS Data Storage Guidelines
+
 위의 그림을 알기 쉬운 트리 그림으로 표현한 것 
 
 ![iOS 파일시스템(File System) - jinShine](https://i.imgur.com/B9HDxms.png)
 
 > 코드도 있어서 보기 좋음  
 > 파일 접근 시 , String 대신 URL 사용 권장  
-[iOS 파일시스템(File System) - jinShine](https://jinshine.github.io/2019/01/19/iOS/UserDefaults.1/)
+
+[iOS 파일시스템(File System) - jinShine](https://jinshine.github.io/2019/01/19/iOS/UserDefaults.1/)  
+
 - - - -
+
 ## 참고 사이트
-[Apple Developer - File System Programming Guide](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)
-[iOS 파일 시스템. Android와 다르게 iOS는 그 내부가 잘 보이지 않는 듯하다… | by Alpaca | Medium](https://medium.com/@Alpaca_iOSStudy/ios-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-35e61a85a3f8)
-[애플의 새로운 파일 시스템, APFS의 모든 것 :: Back to the Mac 블로그](https://macnews.tistory.com/4603)
+[Apple Developer - File System Programming Guide](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)  
+[iOS 파일 시스템. Android와 다르게 iOS는 그 내부가 잘 보이지 않는 듯하다… | by Alpaca | Medium](https://medium.com/@Alpaca_iOSStudy/ios-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-35e61a85a3f8)  
+[애플의 새로운 파일 시스템, APFS의 모든 것 :: Back to the Mac 블로그](https://macnews.tistory.com/4603)  
 
 ## 다음 토픽: About the macOS File System
