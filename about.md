@@ -59,4 +59,19 @@ ko-KR   : *KO
 * [Github Profile](https://github.com/dongsub-joung)
 * [Steam Profile](https://steamcommunity.com/profiles/76561198068103153/)
 
+## Teck Youtuber  
+
+### ENG
+* [Creel - YouTube](https://www.youtube.com/c/WhatsACreel/videos)  
+* [CppCon - YouTube](https://www.youtube.com/user/CppCon)  
+* [TechLead - YouTube](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw)  
+* [freeCodeCamp.org - YouTube](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)  
+
+### JP
+* [マナブ - YouTube](https://www.youtube.com/channel/UCb9h8EpBlGHv9Z896fu4yeQ)  
+* [蟹江もなみ Kanie Monamie Ch. - YouTube](https://www.youtube.com/channel/UC5OB45jE0XqRyXdGETY-2-w)  
+
+### KR
+* [개발자 라라 - YouTube](https://www.youtube.com/channel/UCjWnBKjlXv550KDiBjtW8vQ)  
+
 ---
