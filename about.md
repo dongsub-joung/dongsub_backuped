@@ -45,6 +45,13 @@ ko-KR   : *KO
 - **2021.02.18**
 	**Transfer Computer Science**  
 
+## Net Log  
+
+- [2021.04 ~](https://drive.google.com/drive/folders/1ZnXMAOYxkmo9kN8_DMkouKdNG25gw87B?usp=sharing)  
+
+## Coding Live  
+
+### [Youtube](https://www.youtube.com/channel/UCpwGR4ulHCdlfOVQPZD3QCQ/featured)  
 
 ---
 ## Hobby
