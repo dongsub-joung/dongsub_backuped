@@ -12,6 +12,8 @@ tag: Algoritm
 - Big-omega  
 - Big-theta  
 
+---  
+
 ## Dynamic programming  
 
 ### Principle of optiomality  
@@ -20,5 +22,15 @@ tag: Algoritm
 
 ### Shortest path  
 
+---  
+
+## Greedy  
+
+### CoinChange  
+### Knapsack problem  
+
   
 
+---  
+
+# Feasible Algorithm  
