@@ -86,13 +86,9 @@ ko-KR   : *KO
 
 
 ### KR
-* [Amazon Web Services Korea - YouTube](https://www.youtube.com/channel/UCM9urpxJaoPf-j1cV9pGszg)  
-
-* [백기선 - YouTube](https://www.youtube.com/channel/UCwjaZf1WggZdbczi36bWlBA)  
-* [동빈나 - YouTube](https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw)  
+* [백기선 - YouTube](https://www.youtube.com/channel/UCwjaZf1WggZdbczi36bWlBA)   
 * [생활코딩 - YouTube](https://www.youtube.com/channel/UCvc8kv-i5fvFTJBFAk6n1SA)  
 * [노마드 코더 Nomad Coders - YouTube](https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ)  
-* [개발자 라라 - YouTube](https://www.youtube.com/channel/UCjWnBKjlXv550KDiBjtW8vQ)  
 * [포프TV - YouTube](https://www.youtube.com/channel/UC63J0Q5huHSlbNT3KxvAaHQ)  
 * [라인개발실록 - YouTube](https://www.youtube.com/channel/UC4CjFOoZlYSaqMHEDFCKcXQ)  
 
