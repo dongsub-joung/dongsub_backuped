@@ -29,7 +29,7 @@ tag: Networking
 0030   00 00 00 00 00 00 00 00 00 00 00 00               ............
 ```
 
-> (Some my Router ip data included / sencitive or not?)
+> (Some my Router ip data included / sensitive or not?)
 
 
 ## Source
