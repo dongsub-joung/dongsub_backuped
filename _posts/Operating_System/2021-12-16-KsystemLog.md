@@ -1,6 +1,6 @@
 ---
 Title: Kubuntu::KsystemLog
-Tag: Kubuntu
+Tag: SE
 ---
 
 
