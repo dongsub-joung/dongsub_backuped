@@ -9,25 +9,22 @@ layout: article
 
 
 ```cpp
+
 struct {
-	C/C++;
-	Java;
-	Python;
-	JavaScript;
-	// Rust;	// ~ing
-	// Go;
+	C/C++,
+	Java,
+	Python,
+	JavaScript,
+	Rust,
 }Language;
 
 struct {
 	HTML/CSS;
 	// Vue.JS;
-	// Angular.JS;
 }Front_End;
 
 struct {
 	Node.JS;
-	// Django;
-	JSP/Sprint;		// ~ing
 }Back_end;
 
 struct {
@@ -36,11 +33,11 @@ struct {
 }cloud;
 
 struct {
-	SQL;	// ~ing
+	MySQL;	// ~ing
 }Relation;
 
 struct {
-	// MongoDB;
+	MongoDB;
 }NonRelation;
 ```
 
@@ -109,14 +106,15 @@ struct {
 **Study Djaong (2020.08.18 ~ 미정)**  
 **Study MongoDB (~ 미정)**  
 
----
-## ...
+---  
 
-**React Native**, **Kotlin**, **LowCode**, **Linux**
-
----
 ## JAVA :RE
 
 - **Learn Java (2021.01 ~ )**  
 - **For Java & Spring Developer (2021.02.15 ~ )**
 
+---  
+
+# Rustlang with node.js
+## Linux
+2021.12 ~ 
