@@ -18,12 +18,12 @@ ko-KR   : *KO
 **[history of college](https://drive.google.com/drive/folders/1nLWG0jVPIDMdSjooCURjmgi1tkMRvpDz?usp=sharing)**
 
 ## Korea’s Employment program
-- **2021.02.15**
+- **2021.02.15 ~ 2021.08 (Incomplete Drop)**
 **[For Java & Spring Developer](https://gangnam.greenart.co.kr/?cam_idx=1)**
 
 ## Korea National Open University
 - **2021.02.18**
-	**Transfer Computer Science**  
+	**Transfer to Computer Science**  
 
 ## Coding Live  
 
