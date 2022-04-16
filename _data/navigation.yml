@@ -1,10 +1,5 @@
 header:
   - titles:
-      en      : &EN       Docs
-      ko      : &KO       목록
-    url: /Docs.html
-
-  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
@@ -26,6 +21,7 @@ header:
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
+      tr      : &TR       Arşivdekiler
       # @end locale config
     url: /archive.html
 
@@ -51,46 +47,6 @@ header:
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
+      tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
-
-
-docs-en:
-  - title:      Programming Language
-    children:
-      - title:  C,C++
-        url:    ../Docs
-      - title:  JAVA
-        url:    ../Docs
-      - title:  Python
-        url:    ../Docs
-
-  - title:      Customizing Blog
-    children:
-      - title:  GitHub Blog
-        url:    /myDoc/gitblog
-      - title:  Sociology Blog
-        url:    /myDoc/sociologyBlog
-
-  - title:      Project
-    children:  
-      - title:  Hello world! (C)
-        url:    /myDoc/C 
-      - title:  Self-introduction
-        url:    /myDoc/introduction
-      - title:  Momentum Clone
-        url:    /myDoc/momentum
-      - title:  Portfolio WebSite
-        url:    /myDoc/portfolio
-      - title:  MySQL
-        url:    /myDoc/MySQL
-      - title:  Sociology bookList maintenance tool
-        url:    /myDoc/bookListTool
-      - title:  YouTube Clone
-        url:    /myDoc/youtube
-      - title:  Engineer Information Processing
-        url:    /myDoc/EIPtest
-      - title:  TDD
-        url:    /myDoc/TDD
-      - title:  Build up Radio Web
-        url:    /myDoc/Web_python
